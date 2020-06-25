@@ -1,0 +1,32 @@
+{
+  "c0a68af6-e4ee-4b2b-b6bd-4287d97f0755": {
+    "inVault": false,
+    "factionId": "0",
+    "role": "NORMAL",
+    "title": "",
+    "power": 7.758166666666667,
+    "powerBoost": 0.0,
+    "lastPowerUpdateTime": 1565582800762,
+    "lastLoginTime": 1565582800762,
+    "chatMode": "PUBLIC",
+    "ignoreAllianceChat": false,
+    "id": "c0a68af6-e4ee-4b2b-b6bd-4287d97f0755",
+    "name": "robert_beckley",
+    "monitorJoins": false,
+    "spyingChat": false,
+    "showScoreboard": false,
+    "warmupTask": 0,
+    "isAdminBypassing": false,
+    "kills": 0,
+    "deaths": 0,
+    "willAutoLeave": false,
+    "mapHeight": 17,
+    "isFlying": false,
+    "enteringPassword": false,
+    "enteringPasswordWarp": "",
+    "isAlt": false,
+    "isStealthEnabled": false,
+    "playerAlerts": false,
+    "inspectMode": false
+  }
+}

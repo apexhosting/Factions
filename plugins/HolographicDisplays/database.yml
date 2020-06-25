@@ -1,0 +1,7 @@
+welcome:
+  location: world, -541.491, 77.228, 718.246
+  lines:
+  - '&3Welcome to your new factions server'
+  - '&2You can edit anthing you like'
+  - '&eIf you need help look in the readme.txt in your FTP'
+  - Default hologram. Change it with &b/hd edit welcome

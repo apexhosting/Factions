@@ -1,0 +1,26 @@
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Starter:
+    delay: 86400
+    items:
+    - iron_pickaxe 1 name:&6Starter_Pickaxe lore:Welcome_To_The_Server!
+    - iron_axe 1 name:&6Starter_Axe lore:Welcome_To_The_Server!
+    - iron_shovel 1 name:&6Starter_Spade lore:Welcome_To_The_Server!
+    - iron_sword 1 name:&6Starter_Sword lore:Welcome_To_The_Server!
+    - cooked_beef 32 name:&6Starter_Steak lore:NOM_NOM
+    - iron_helmet 1 name:&6Starter_Helmet lore:Welcome_To_The_Server!
+    - iron_chestplate 1 name:&6Starter_ChestPlate lore:Welcome_To_The_Server!
+    - iron_leggings 1 name:&6Starter_Pants lore:Welcome_To_The_Server!
+    - iron_boots 1 name:&6Starter_Boots lore:Welcome_To_The_Server!
+    - torch 16
+    - log 32
+    - iron_ingot 8

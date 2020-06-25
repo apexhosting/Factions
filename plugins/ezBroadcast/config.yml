@@ -1,0 +1,11 @@
+#prefix before every broadcast message
+prefix: '&3[Info]'
+
+#interval in seconds between every message
+interval: 600
+
+#all messages to be broadcasted
+messages:
+  - '&1Hi there'
+  - '&3This is a message'
+  - '&5And here is the final message'

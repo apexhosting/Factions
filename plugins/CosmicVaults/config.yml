@@ -1,0 +1,207 @@
+# Made by RandomHashTags
+# max-size-of-pvs-display and size-of-vault has to be a multiple of 9!
+CosmicVaults:
+  open-menu-when:
+    renamed-vault: true
+    closed-edit-icon: true
+    closed-self-player-vault: true
+    closed-other-player-vault: true
+  # Size of the vaults
+  size-of-vault: 54
+  # Max size of /pvs
+  max-size-of-pvs-display: 54
+  # Size of the vault (example: The size of /pv 1, /pv 2, /pv 3, ect.)
+  titles:
+    # When the player is in a vault that they own, this is the chest's title
+    # {VAULT_NUMBER} needs to be last for it to work!
+    self: "Vault #{VAULT_NUMBER}"
+    # When the player is in a vault they do not own, this is the chest's title.
+    # {PLAYER} needs to be first for it to work!
+    other-pvs: "{PLAYER}'s Vaults"
+    # other-vault requries {PLAYER} to be first, and {VAULT_NUMBER} to be last in order to work.
+    other-vault: "{PLAYER}'s Vault #{VAULT_NUMBER}"
+    # When the player is editing a vault icon, this is the chest's title.
+    # Needs to contain {VAULT_NUMBER} to work!
+    edit-icon: "Edit PV #{VAULT_NUMBER} Icon"
+    # When the player is editing a vault not owned by them, this is the chest's title.
+    # {PLAYER} needs to be first for it to work!
+    edit-icon-other: "{PLAYER}'s PV #{VAULT_NUMBER} Icon"
+    # When the player opens the pv menu, this is the chest's title.
+    pvs: "Player Vaults"
+  #
+  default-pvs-display:
+    # "<item>:<data>    # You can just have the <item>, and the data will be defaulted to zero
+    # {VAULT_NUMBER} = The vault number the 
+    item: "emerald:0"
+    name: "&b&lPV {VAULT_NUMBER}"
+    lore:
+    - "&d/pv {VAULT_NUMBER}"
+    - " "
+    - "&7Left-Click to enter Vault"
+    - "&7Middle-Click to edit name"
+    - "&7Right-Click to edit icon"
+  #
+  messages:
+    prefix: "&8&l[&a&lCosmicVaults&8&l]&r"
+    rename-vault:
+    - " "
+    - "{PREFIX}"
+    - "&b&l(!)&r &bPlease enter your new desired Vault name."
+    - "&7If you wish to cancel type '&ccancel&7' in the chat."
+    - " "
+    rename-vault-other:
+    - " "
+    - "{PREFIX}"
+    - "&b&l(!)&r &bPlease enter your new desired Vault name"
+    - "&bfor {PLAYER}'s Vault #{VAULT_NUMBER}."
+    - "&7If you wish to cancel type '&ccancel&7' in the chat."
+    - " "
+    rename-vault-success:
+    - "{PREFIX} &a&l(!)&r &aVault #{VAULT_NUMBER} renamed to {NAME}"
+    rename-vault-success-other:
+    - "{PREFIX} &a&l(!)&r &aYou renamed {PLAYER}'s Vault #{VAULT_NUMBER} to {NAME}"
+    rename-vault-cancelled:
+    - "{PREFIX} &cVault naming &lCANCELLED!"
+    rename-vault-cancelled-other:
+    - "{PREFIX} &c{PLAYER}'s Vault #{VAULT_NUMBER} naming &lCANCELLED!"
+    save-edited-icon:
+    - "{PREFIX} &aSaved Vault #{VAULT_NUMBER} icon to &n{MATERIAL}"
+    save-edited-icon-other:
+    - "{PREFIX} &aSaved {PLAYER}'s Vault #{VAULT_NUMBER} icon to &n{MATERIAL}"
+    #
+    target-player-has-no-vaults:
+    - "{PREFIX} &cThis player doesn't have any vaults!"
+    no-vault-access:
+    - "{PREFIX} &cYou do not have access to this vault!"
+    #
+    no-permission-to-edit-other-vault: # Permission: 'CosmicVaults.pv.other.edit'
+    - "{PREFIX} &cYou do not have access to edit this vault!"
+    no-permission-to-edit-other-vault-icon: # Permission: 'CosmicVaults.pv.other.edit.icon'
+    - "{PREFIX} &cYou do not have access to edit this vault's icon!"
+    no-permission-to-rename-other-vault: # Permission: 'CosmicVaults.pv.other.rename'
+    - "{PREFIX} &cYou do not have access to rename this vault!"
+    no-permission-to-view-other-vault: # Permission: 'CosmicVaults.pv.other.view'
+    - "{PREFIX} &cYou do not have access to view this vault!"
+##
+# Item format:
+# item: "<item>:<data>"
+# Item will have a data of ZERO if you do not have ":<data>" in the item string.
+#
+# Items can only have a name! Color codes ARE allowed!
+# Example:
+# '0':
+#   item: "diamond_helmet"
+#   name: "&b&lDiamond Helmet"
+##
+edit-icon:
+  size: 54
+  select-lore:
+  - "&7Click to select material."
+  '0':
+    item: "diamond_helmet"
+  '1':
+    item: "diamond_chestplate"
+  '2':
+    item: "diamond_leggings"
+  '3':
+    item: "diamond_boots"
+  '4':
+    item: "bow"
+  '5':
+    item: "splash_potion"
+  '6':
+    item: "sugar"
+  '7':
+    item: "ender_pearl"
+  '8':
+    item: "mob_spawner"
+  '9':
+    item: "book"
+  '10':
+    item: "tnt"
+  '11':
+    item: "stone_slab2"
+  '12':
+    item: "anvil"
+  '13':
+    item: "iron_block"
+  '14':
+    item: "gold_block"
+  '15':
+    item: "diamond_block"
+  '16':
+    item: "nether_brick"
+  '17':
+    item: "netherrack"
+  '18':
+    item: "paper"
+  '19':
+    item: "chest"
+  '20':
+    item: "ender_chest"
+  '21':
+    item: "smooth_brick"
+  '22':
+    item: "snow_block"
+  '23':
+    item: "soul_sand"
+  '24':
+    item: "quartz_block"
+  '25':
+    item: "diamond_sword"
+  '26':
+    item: "diamond_axe"
+  '27':
+    item: "diamond_pickaxe"
+  '28':
+    item: "diamond_spade"
+  '29':
+    item: "diamond_hoe"
+  '30':
+    item: "ice"
+  '31':
+    item: "packed_ice"
+  '32':
+    item: "dispenser"
+  '33':
+    item: "furnace"
+  '34':
+    item: "hopper"
+  '35':
+    item: "glass"
+  '36':
+    item: "sand"
+  '37':
+    item: "sponge"
+  '38':
+    item: "obsidian"
+  '39':
+    item: "bedrock"
+  '40':
+    item: "enchantment_table"
+  '41':
+    item: "cactus"
+  '42':
+    item: "glowstone"
+  '43':
+    item: "diamond"
+  '44':
+    item: "emerald"
+  '45':
+    item: "gold_ingot"
+  '46':
+    item: "iron_ingot"
+  '47':
+    item: "redstone"
+  '48':
+    item: "bucket"
+  '49':
+    item: "lava_bucket"
+  '50':
+    item: "water_bucket"
+  '51':
+    item: "golden_apple:1"
+  '52':
+    item: "exp_bottle"
+  '53':
+    item: "bed"

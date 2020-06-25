@@ -1,0 +1,111 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&7[&8Member&7]'
+    permissions:
+    - -minecraft.command.tell
+    - -minecraft.command.me
+    - -minecraft.command.help
+    - -bukkit.command.help
+    - -bukkit.command.plugins
+    - -bukkit.command.version
+    - modifyworld.*
+    - essentials.home
+    - essentials.delhome
+    - essentials.sethome
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.spawn
+    - essentials.msg
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use.free
+    - essentials.signs.use.warp
+    - essentials.signs.use.disposal
+    - essentials.signs.use.mail
+    - essentials.signs.use.repair
+    - essentials.signs.use.heal
+    - essentials.signs.use.kit
+    - essentials.signs.use.enchant
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.balance
+    - essentials.balancetop
+    - factions.access.faction
+    - factions.access.player
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.list
+    - essentials.me
+    - essentials.ignore
+    - essentials.rules
+    - essentials.realname
+    - essentials.ping
+    - essentials.tpdeny
+    - essentials.pay
+    - essentials.pay.multiple
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.Spawn
+    - essentials.warps.Shop
+    - essentials.kit
+    - essentials.kits.Starter
+    - CosmicVaults.pv.5
+    - CosmicVaults.commands.pv
+  mod:
+    inheritance:
+    - default
+    permissions:
+    - essentials.mute
+    - essentials.mute.notify
+    - essentials.mute.offline
+    - essentials.tempban
+    - essentials.ban.notify
+    - essentials.kick
+    - essentials.afk.kickexempt
+    - essentials.kick.notify
+    - essentials.seen
+    - essentials.broadcast
+    - essentials.invsee
+    - essentials.socialspy
+    - essentials.tptoggle
+    options:
+      prefix: '&8[&aMod&8]'
+  admin:
+    inheritance:
+    - default
+    - mod
+    permissions:
+    - essentials.ban
+    - essentials.ban.offline
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.banip
+    - factions.admin
+    - essentials.broadcast
+    - essentials.clearinventory.all
+    - essentials.invsee.modify
+    - essentials.socialspy
+    - essentials.tptoggle
+    options:
+      prefix: '&8[&cAdmin&8]'
+  owner:
+    permissions:
+    - '*'
+    options:
+      prefix: '&8[&6Owner&8]'
+  VIP:
+    permissions:
+    - CosmicVaults.pv.10
+    options:
+      prefix: '&6[&5&lVIP&6]'
+schema-version: 1
+users:
+  c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
+    permissions:
+    - '*'
+    group:
+    - admin
+    options:
+      name: robert_beckley
