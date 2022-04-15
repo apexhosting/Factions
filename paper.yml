@@ -58,6 +58,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    seed-based-feature-search: true
+    portal-create-radius: 16
     per-player-mob-spawns: false
     optimize-explosions: false
     portal-search-radius: 128
@@ -170,3 +172,6 @@ world-settings:
       - oak_planks
     generator-settings:
       flat-bedrock: false
+    hopper:
+      cooldown-when-full: true
+      disable-move-event: false
