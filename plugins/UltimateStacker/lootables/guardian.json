@@ -1,0 +1,96 @@
+{
+  "Type": "GUARDIAN",
+  "Loot": [
+    {
+      "xp": 0,
+      "Type": "PRISMARINE_SHARD",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true,
+      "requireCharged": false
+    },
+    {
+      "xp": 0,
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true,
+      "Child Loot Drop Count Min": 1,
+      "Child Loot Drop Count Max": 1,
+      "Child Loot": [
+        {
+          "xp": 0,
+          "Type": "COD",
+          "Burned Type": "COOKED_COD",
+          "Chance": 50.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true,
+          "requireCharged": false
+        },
+        {
+          "xp": 0,
+          "Type": "PRISMARINE_CRYSTALS",
+          "Chance": 33.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true,
+          "requireCharged": false
+        }
+      ],
+      "requireCharged": false
+    },
+    {
+      "xp": 0,
+      "Chance": 2.5,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true,
+      "Only Drop For": [
+        "PLAYER"
+      ],
+      "Child Loot Drop Count Min": 1,
+      "Child Loot Drop Count Max": 1,
+      "Child Loot": [
+        {
+          "xp": 0,
+          "Type": "COD",
+          "Chance": 60.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": false,
+          "requireCharged": false
+        },
+        {
+          "xp": 0,
+          "Type": "SALMON",
+          "Chance": 25.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": false,
+          "requireCharged": false
+        },
+        {
+          "xp": 0,
+          "Type": "PUFFERFISH",
+          "Chance": 13.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": false,
+          "requireCharged": false
+        },
+        {
+          "xp": 0,
+          "Type": "TROPICAL_FISH",
+          "Chance": 2.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": false,
+          "requireCharged": false
+        }
+      ],
+      "requireCharged": false
+    }
+  ]
+}

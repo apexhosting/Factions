@@ -1,15 +1,11 @@
-# .
-# .  Read the tutorial at: http://dev.bukkit.org/bukkit-plugins/holographic-displays/
-# .
-# .  Plugin created by filoghost.
-# .
+# 
+# Plugin page: https://dev.bukkit.org/projects/holographic-displays
+# 
+# Created by filoghost.
+# 
+
 space-between-lines: 0.02
-precise-hologram-movement: true
-images:
-  symbol: '[x]'
-  transparency:
-    space: ' [|] '
-    color: '&7'
+quick-edit-commands: true
 bungee:
   refresh-seconds: 3
   use-RedisBungee: false
@@ -30,4 +26,6 @@ time:
   zone: GMT+1
 update-notification: true
 debug: false
-quick-edit-commands: true
+image-rendering:
+  transparent-pixel: '&7 [|] '
+  solid-pixel: '[x]'

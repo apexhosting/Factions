@@ -1,0 +1,837 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 9
+npc:
+  '3':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §2§lRTP
+    uuid: b065284f-0c7f-4777-ad93-2e49e03e76fc
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 80.85508
+        world: paper_1_18_1_1794939
+        x: '333.4832'
+        y: '81.0'
+        z: '307.5205'
+        yaw: '80.8551'
+        pitch: '4.35'
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: jCUKeDNMMWkglO5CZrQX1MZ168Cs5HLtr/+vPPPXEwusFBoVM2Kynlxgip6uoreTkRv32Zd3GQ8umz5eE3LK7otfj17dOoUFwdFSAXeGM0649Ic8uv7OAkZX/9stAokJ+fEz0kN7zCNei0+lOpi3W0H/QHvYsENSlRyGgF0e4ik/hUoM2fr9njgd2Nhc0+35oDOPX1qqFAVVrBQWEIFCkIJRwYSlIye2hSN0DFMdieT2ad9CQleeLdSh83Pb2aSEBHnfd1yc7OSpglhyayzSMrvs0tJWHj8uExWLI6QY6skEecOxlHfWzIhJCxVDC3mcGTSA7kjsqhlHV43jeRaI2cDHITMs4qItOIDOCMy4ZLMQtQRhNOAZVHUikP0G+SfvuhIFOHleOTljIYBvDWpBGuQlgtGd+J/LVGjtfiOXeq8/z01Vi5kRVhWZ+lMQAyWEgVaujKwz6rhMftedCangxlIXtbt/PP8PY1C4htYNDDxFygKmSJVMoLbeyR+opVZXBqc0863qfDUbb1xnRL+HtNrghoCzf9I128pFI8WmZKwXOHO37oJwe3piPPwAngEUcZdy3DIdaPSFCIkaSXGrx+6cwPcZfQSu6ifnqImWNCVyjzAt3U4lWu5FhrRZwvnnVQ5QAP3pN1hl8nW1C/I08q3Rc6hwlz7uWc7Hlo3o2Bg=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NDcyMTAwMzE4NiwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: rtp
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: owner,scoreboardtrait,skintrait,location,commandtrait,spawned,type,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §e§lF§7§lTOP
+    uuid: bbedbf01-7956-42f1-806b-b49d51a64621
+    traits:
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      spawned: true
+      location:
+        bodyYaw: 84.30502
+        world: paper_1_18_1_1794939
+        x: '333.4693'
+        y: '81.0'
+        z: '310.4947'
+        yaw: '84.305'
+        pitch: '-2.85'
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ugTvgDEDsbXtZtFwEf+gc3BHxpWUo6WmMWkNIL5ZnOqZQ7j16hkkp0TvbpFXekFqiOcFt6j1BkihdGkZL6elcflU1j71Ui9vmQqkVCgcRJZCmW60+07O8HFiekejRVSPbPLfAI8RcIQAPMHBzb89uYq4MPmHrfbqY0oCriDpJpRlSSVds5oY203jXgchdPc5YtJ4pwwaI0xmmrmJXgE57yzOSzeJHdGHiURz9ZM3xjGCip6M/zLPliAhdNLykyLIf8RMitQWH5H9P9YjnAqiNyBLHCA6X8G3IKPfsIojyncX+wx16t8g036eAP2b6j8oFRJqLl7E2NCSGGgv0uocIFJcCi/6aCdV3OAQNAGcXOLsD8vo8O5H9/4v0Iv657cp76G6Xd01sFQ1547cP5hzCwqahspzA5COAa96prXETZuUfYLLznA64s3yfurKTBunoRFIrWTt5fK0cr9G4pJ702DSs3aTQrfp5BxRgUNrrljWJ/o7K95vIg355ZwWec1QMVlG4dlp7jN0/NU9EdcMKSnz4uAoxe9DwbCuINTyjIRfMxWPSz+blG85pQb+m8vuIrpyWj7auRqYYERsbBPB6sY9pFULbigk3DW1el++Sb3JACO/Guwgo/6Y/RAi4jJTDNdpYsqxUOEu0Uus/qyC8Hpz9G0kpeemijpn+WXowCs=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NDcyMTAwMTIzMiwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: factions top POWER
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: owner,scoreboardtrait,skintrait,hologramtrait,location,commandtrait,spawned,type,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §c§lSHOP
+    uuid: e429cb6c-70b3-40f7-ae47-7fa2ad2413fc
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 101.55518
+        world: paper_1_18_1_1794939
+        x: '333.4575'
+        y: '81.0'
+        z: '313.4084'
+        yaw: '101.5552'
+        pitch: '8.6996'
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ugTvgDEDsbXtZtFwEf+gc3BHxpWUo6WmMWkNIL5ZnOqZQ7j16hkkp0TvbpFXekFqiOcFt6j1BkihdGkZL6elcflU1j71Ui9vmQqkVCgcRJZCmW60+07O8HFiekejRVSPbPLfAI8RcIQAPMHBzb89uYq4MPmHrfbqY0oCriDpJpRlSSVds5oY203jXgchdPc5YtJ4pwwaI0xmmrmJXgE57yzOSzeJHdGHiURz9ZM3xjGCip6M/zLPliAhdNLykyLIf8RMitQWH5H9P9YjnAqiNyBLHCA6X8G3IKPfsIojyncX+wx16t8g036eAP2b6j8oFRJqLl7E2NCSGGgv0uocIFJcCi/6aCdV3OAQNAGcXOLsD8vo8O5H9/4v0Iv657cp76G6Xd01sFQ1547cP5hzCwqahspzA5COAa96prXETZuUfYLLznA64s3yfurKTBunoRFIrWTt5fK0cr9G4pJ702DSs3aTQrfp5BxRgUNrrljWJ/o7K95vIg355ZwWec1QMVlG4dlp7jN0/NU9EdcMKSnz4uAoxe9DwbCuINTyjIRfMxWPSz+blG85pQb+m8vuIrpyWj7auRqYYERsbBPB6sY9pFULbigk3DW1el++Sb3JACO/Guwgo/6Y/RAi4jJTDNdpYsqxUOEu0Uus/qyC8Hpz9G0kpeemijpn+WXowCs=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NDcyMTAwMTIzMiwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: shop
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: owner,scoreboardtrait,skintrait,location,commandtrait,spawned,type,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §5§lALCHEMIST
+    uuid: 98af1693-460a-4f70-82fc-413948c19414
+    traits:
+      location:
+        bodyYaw: -102.87976
+        world: paper_1_18_1_1794939
+        x: '307.6272'
+        y: '84.0'
+        z: '304.55'
+        yaw: '-102.8798'
+        pitch: '8.0997'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: kit alchemist
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: QSlsPKwOoOGHYYN71wRMqn2/OW97O739wsuldIrT0npF0Xl6r0Ay3wkr4m7nQu9OirGwGdjOaoD3P8/ckIqDoX561xe0QHxWM09wCmP/FaY/SFpqCJ+nnbsOLnwonSvf9PHMjABcKU7GvUjI/91q4LUKFhFuFCDY9KJJQapnj+mey+VARXLNq1ymI15ovBLcjVpMiWiPe6GakWVNHUZdQZfhCf+3mT+nDKXhemjPlzcHa/Jf0g7XBfeo37fBLlBBwg3TnVtOvNvt71tf4cFLYqrUXsJ2kIj0maY3o+HU41USPxQeTRf9Ol6Q0aPq+ljrWRM6ZXku4RPYHc/csw+285iDTYlofncYHUw8laQhA/xMeBs+++HTWJjpN7lBZkIG8NRRmNlE8TbgB7LfKqizCU57Q3HBmxssxImeH7b+2J70yrHryxHnWn3fAkhHXYGIblsqXB3+iMnS6iV1lu59VsYTpykZMQPsGsJfCwxKHQSFvMAS/vgkgh7FWeVFDbr6xfF0j/skQAwnrQ6mIWifrLXU+S00oBkhamic5UxA0k6yePrgLIsDdS4T8NQiwr4Y8HWxtF88G55R3+wE6yWG2Cxjz7tO/Tji8BDNBSsQEfmjm+yDqYenZDyN1KMyO7EBq6I/0rneiEK41v8pPryQIpjWhAoJ7aqYac8RjnaBDKY=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NDg4OTExMDc0OSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: glistering_melon_slice
+          amount: 32
+          durability: 0
+        '40':
+          type_namespace: minecraft
+          type_key: potion
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABFtaW5lY3JhZnQ6YXdrd2FyZA==
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: glistering_melon_slice
+          amount: 32
+          durability: 0
+        offhand:
+          type_namespace: minecraft
+          type_key: potion
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABFtaW5lY3JhZnQ6YXdrd2FyZA==
+      spawned: true
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,equipment,skintrait,location,commandtrait,spawned,type,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §a§lTRAPPER
+    uuid: bd3950d0-9acf-4794-809a-b334344e96b3
+    traits:
+      location:
+        bodyYaw: -120.71521
+        world: paper_1_18_1_1794939
+        x: '306.4958'
+        y: '84.0'
+        z: '307.5923'
+        yaw: '-120.7152'
+        pitch: '2.3999'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: kit trapper
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: KSA3hgGLzpKvzUe2j5qtPw+0CrDd2qZAdhBJYEOUtwcQ08dEKpmazmmD4ik9Rwr7vaJDvaHglT0DUqC3D+Kfhrehq/OFXLuueVbNqtNUvCTp9n8H1SxOgU4fhre39I4EsAACJmv1dZeqsD9COFTpeQ4/eArOHpWfYjCFb3KQ/aRUGmj9JzjN71fn7qqABTow6bVnpzOvyBtCxbNe2dSaBGaclUAcIxrOXFi7Sr8kvsKFZJde/hB/YTZYrPN8FeCJkI/TArr0YbSfK8Rg7uiGdarJDU29bkgnl81wQosuQzXs4TTxvmQms5tuNQVbVlEmp3Tb78q4x9g0z74/imzv//7I8m4M7N6mlszrNaOUnVJTxcyTLSlJTX61N1cwLVmDIioa1VLJBByGK3bgpvkKRYweDIE8fbBKnAiQW6e1SeiCtzZjvT7Q1cUlvW4DsBPRJOHgU02r18DPZUoYuulhBM9bdgPrtzcsTpz7rRx7bMrTtM1gSQog6PYMFFvEZ19m8iGFVfCH3q3zC+5w3uBKWs9UoqBdiffkyN4WFHwgTaVzUPPnZeq6quTYT+driQ8/wLhDsirGlSONII6HB+TwLUfd+Vm8S00qfxaPz0J+nQhMXmomujqUpLd/15J5APDP7K95n5zqG4dmDN3bsNW+bZ2v5I90O6vuyJjQ50JlHlg=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NDg4OTE0MDc4OSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: sticky_piston
+          amount: 2
+          durability: 0
+        '40':
+          type_namespace: minecraft
+          type_key: diamond_shovel
+          amount: 1
+          durability: 0
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: sticky_piston
+          amount: 2
+          durability: 0
+        offhand:
+          type_namespace: minecraft
+          type_key: diamond_shovel
+          amount: 1
+          durability: 0
+      spawned: true
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,skintrait,equipment,location,commandtrait,spawned,type,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §6§lTANK
+    uuid: 41ac2453-7821-4f9d-a4b7-82cf29316239
+    traits:
+      location:
+        bodyYaw: -152.95947
+        world: paper_1_18_1_1794939
+        x: '309.4995'
+        y: '84.0'
+        z: '310.5923'
+        yaw: '-152.9595'
+        pitch: '0.9001'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: kit tank
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: eq0NQQ/czEx+Lh7OGGmGgZ0MAaiwwOO5JHgv9BiBsyRQ67Z3Pq2gkNrnCOwNhyVGCKKU1Qfm3F4IRrwNQtEcnQbCmx5HhfJldhWMHfFcKGUTh/s2QSEN8qqZBwTXPbfPHqdD1mWHUf62pAv8sOJKPEZAhuJ2C3tdJ3Ti8FvyPvupAEmWT7Df81x5LgkiUPuiCLjiS55UPwjkFAHLEHGwxy5gQESoc4jdx+RDlkvWL22MFp4/4NjZXegfNkhYrh4uN9n3T1rmgXQwVpqFtggghrOUUExbQ+FLXqP44QXw+o3scH96oM4ew04PrCIDF8iB7dGYLfiVOskOBJceH8Wr02U9MEHjotvVrjvLdYBk8J7f6TQ9G7JIezlMQxyMtRkSC8WovIVvKdQrsNHST3Rqd2cXLc/QWAlzKDOXaNOOVJuvDdbDietI8YAbdZMe89FUbrDJJW/4IRrr8a4zW3U59LO5QuCZJILIQcVN3aV0GcwxLRAxfNaCky3MZzfrMUEsvg/caZmfoEK/wFrII/VmYYIvMAtVwK3Bri8+6HrDS2fLE34A45kVMtJ6bMjawnt3rlesY1Hd2uy/FVb0Fcs/NQxFOMYeunDj3HEXRgtICe8w7ZsWwNbx3bwTXaN8DtOLlgv6A88KZZ5DPUVGce+YBhTSzUQ2nPOeK7cUTwlaMZk=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NDg4OTE1MDc2MCwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: stone_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAB
+          enchantments:
+            sharpness: 1
+        '36':
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+          enchantments:
+            protection: 4
+        '37':
+          type_namespace: minecraft
+          type_key: iron_leggings
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+          enchantments:
+            protection: 4
+        '38':
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+          enchantments:
+            protection: 4
+        '39':
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+          enchantments:
+            protection: 4
+        '40':
+          type_namespace: minecraft
+          type_key: cooked_beef
+          amount: 32
+          durability: 0
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: stone_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAB
+          enchantments:
+            sharpness: 1
+        helmet:
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+          enchantments:
+            protection: 4
+        chestplate:
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+          enchantments:
+            protection: 4
+        leggings:
+          type_namespace: minecraft
+          type_key: iron_leggings
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+          enchantments:
+            protection: 4
+        boots:
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABhQUk9URUNUSU9OX0VOVklST05NRU5UQUx1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAQ=
+          enchantments:
+            protection: 4
+        offhand:
+          type_namespace: minecraft
+          type_key: cooked_beef
+          amount: 32
+          durability: 0
+      spawned: true
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,skintrait,equipment,location,commandtrait,spawned,type,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §c§lWARRIOR
+    uuid: 54f2fa28-3cb0-4339-93da-ff8fad517ef5
+    traits:
+      location:
+        bodyYaw: -177.71826
+        world: paper_1_18_1_1794939
+        x: '312.4915'
+        y: '84.0'
+        z: '310.583'
+        yaw: '-177.7183'
+        pitch: '1.4999'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: kit warrior
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: QSlsPKwOoOGHYYN71wRMqn2/OW97O739wsuldIrT0npF0Xl6r0Ay3wkr4m7nQu9OirGwGdjOaoD3P8/ckIqDoX561xe0QHxWM09wCmP/FaY/SFpqCJ+nnbsOLnwonSvf9PHMjABcKU7GvUjI/91q4LUKFhFuFCDY9KJJQapnj+mey+VARXLNq1ymI15ovBLcjVpMiWiPe6GakWVNHUZdQZfhCf+3mT+nDKXhemjPlzcHa/Jf0g7XBfeo37fBLlBBwg3TnVtOvNvt71tf4cFLYqrUXsJ2kIj0maY3o+HU41USPxQeTRf9Ol6Q0aPq+ljrWRM6ZXku4RPYHc/csw+285iDTYlofncYHUw8laQhA/xMeBs+++HTWJjpN7lBZkIG8NRRmNlE8TbgB7LfKqizCU57Q3HBmxssxImeH7b+2J70yrHryxHnWn3fAkhHXYGIblsqXB3+iMnS6iV1lu59VsYTpykZMQPsGsJfCwxKHQSFvMAS/vgkgh7FWeVFDbr6xfF0j/skQAwnrQ6mIWifrLXU+S00oBkhamic5UxA0k6yePrgLIsDdS4T8NQiwr4Y8HWxtF88G55R3+wE6yWG2Cxjz7tO/Tji8BDNBSsQEfmjm+yDqYenZDyN1KMyO7EBq6I/0rneiEK41v8pPryQIpjWhAoJ7aqYac8RjnaBDKY=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NDg4OTExMDc0OSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAC
+          enchantments:
+            sharpness: 2
+        '36':
+          type_namespace: minecraft
+          type_key: chainmail_boots
+          amount: 1
+          durability: 0
+        '37':
+          type_namespace: minecraft
+          type_key: chainmail_leggings
+          amount: 1
+          durability: 0
+        '38':
+          type_namespace: minecraft
+          type_key: chainmail_chestplate
+          amount: 1
+          durability: 0
+        '39':
+          type_namespace: minecraft
+          type_key: chainmail_helmet
+          amount: 1
+          durability: 0
+        '40':
+          type_namespace: minecraft
+          type_key: ender_pearl
+          amount: 1
+          durability: 0
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAC
+          enchantments:
+            sharpness: 2
+        helmet:
+          type_namespace: minecraft
+          type_key: chainmail_helmet
+          amount: 1
+          durability: 0
+        chestplate:
+          type_namespace: minecraft
+          type_key: chainmail_chestplate
+          amount: 1
+          durability: 0
+        leggings:
+          type_namespace: minecraft
+          type_key: chainmail_leggings
+          amount: 1
+          durability: 0
+        boots:
+          type_namespace: minecraft
+          type_key: chainmail_boots
+          amount: 1
+          durability: 0
+        offhand:
+          type_namespace: minecraft
+          type_key: ender_pearl
+          amount: 1
+          durability: 0
+      spawned: true
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,skintrait,equipment,location,commandtrait,spawned,type,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §5§lMVP
+    uuid: db0712c6-35b8-450f-b738-7e0c03ec2683
+    traits:
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      skintrait:
+        fetchDefaultSkin: true
+        signature: k6jicZ9S3E4QUicL/Feg+uag6CoFwJiEtKNyA/lF6kesOVoFHPA/4LZ9/5vAhbdCM4UIJOQGIceDU65MupeEFpCIgXuW7kFinq/efC6dBWZICUQlgk/JYFmOi9pEY8uEsLv60F9sFHrNcRV4UsxnXdYZ64LIFs+9Hn04suezlMX1CrMyv7KFngVceuqu8ILXhQ2afuHzF+r0lEPqzS1uA96jVN77BoOb3uO1adzUrdRnBn+/80LEosze7ZR19MK35l25vgnMihgSi3EEE1plbBiwcmRyATMjL5bS8jc88BI+EhQyGw7sCM1nSh0M546gHUvR+mnRkcCvfqE9Vrg1dWaKix7yh1MIcF1GmEsK00gA7WMtX14TKIrNBzGklbm0bwQ5ni8e7IacaRVzzm9s/7UnTrVJHAvol/DkKRqYWpDMMGVLDJn3TddF83Hg8qKfKoAs8qaMTs3AMjCeVbBVzOVQwQ16nTY6MYzB43AMok1WvgstGr6Ly0HkE3hETU/L4qkmqHVBABf+vdiXHCGRbAx0W67ua3/9ufa32lr+vxwOwKnbRlBgIQLXLFsqyxNXNGw4wjCmh7z3OOwMiHzMDMnnMM+4vkb2EeGeYOfN/b/dO6qy41Kx2QVVx4FKqPhkmZn+iFA3BFJYsED4N5CBqy9/Wx7Z2zepl7HW4SXIfVM=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NTE0NzY4NjM1MCwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: diamond_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAF
+          enchantments:
+            sharpness: 5
+        helmet:
+          type_namespace: minecraft
+          type_key: diamond_helmet
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQAFVBST1RFQ1RJT05fUFJPSkVDVElMRXQAGFBST1RFQ1RJT05fRU5WSVJPTk1FTlRBTHVxAH4ABgAAAAJzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnNxAH4AEwAAAAQ=
+          enchantments:
+            projectile_protection: 2
+            protection: 4
+        chestplate:
+          type_namespace: minecraft
+          type_key: diamond_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQAFVBST1RFQ1RJT05fUFJPSkVDVElMRXQAGFBST1RFQ1RJT05fRU5WSVJPTk1FTlRBTHVxAH4ABgAAAAJzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnNxAH4AEwAAAAQ=
+          enchantments:
+            projectile_protection: 2
+            protection: 4
+        leggings:
+          type_namespace: minecraft
+          type_key: diamond_leggings
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQAFVBST1RFQ1RJT05fUFJPSkVDVElMRXQAGFBST1RFQ1RJT05fRU5WSVJPTk1FTlRBTHVxAH4ABgAAAAJzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnNxAH4AEwAAAAQ=
+          enchantments:
+            projectile_protection: 2
+            protection: 4
+        boots:
+          type_namespace: minecraft
+          type_key: diamond_boots
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQAFVBST1RFQ1RJT05fUFJPSkVDVElMRXQAGFBST1RFQ1RJT05fRU5WSVJPTk1FTlRBTHVxAH4ABgAAAAJzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnNxAH4AEwAAAAQ=
+          enchantments:
+            projectile_protection: 2
+            protection: 4
+        offhand:
+          type_namespace: minecraft
+          type_key: golden_apple
+          amount: 30
+          durability: 0
+      location:
+        bodyYaw: -118.81717
+        world: paper_1_18_1_1794939
+        x: '313.0622'
+        y: '83.0'
+        z: '299.5715'
+        yaw: '-118.8172'
+        pitch: '-1.5001'
+      spawned: true
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: diamond_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAF
+          enchantments:
+            sharpness: 5
+        '36':
+          type_namespace: minecraft
+          type_key: diamond_boots
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQAFVBST1RFQ1RJT05fUFJPSkVDVElMRXQAGFBST1RFQ1RJT05fRU5WSVJPTk1FTlRBTHVxAH4ABgAAAAJzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnNxAH4AEwAAAAQ=
+          enchantments:
+            projectile_protection: 2
+            protection: 4
+        '37':
+          type_namespace: minecraft
+          type_key: diamond_leggings
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQAFVBST1RFQ1RJT05fUFJPSkVDVElMRXQAGFBST1RFQ1RJT05fRU5WSVJPTk1FTlRBTHVxAH4ABgAAAAJzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnNxAH4AEwAAAAQ=
+          enchantments:
+            projectile_protection: 2
+            protection: 4
+        '38':
+          type_namespace: minecraft
+          type_key: diamond_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQAFVBST1RFQ1RJT05fUFJPSkVDVElMRXQAGFBST1RFQ1RJT05fRU5WSVJPTk1FTlRBTHVxAH4ABgAAAAJzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnNxAH4AEwAAAAQ=
+          enchantments:
+            projectile_protection: 2
+            protection: 4
+        '39':
+          type_namespace: minecraft
+          type_key: diamond_helmet
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQAFVBST1RFQ1RJT05fUFJPSkVDVElMRXQAGFBST1RFQ1RJT05fRU5WSVJPTk1FTlRBTHVxAH4ABgAAAAJzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnNxAH4AEwAAAAQ=
+          enchantments:
+            projectile_protection: 2
+            protection: 4
+        '40':
+          type_namespace: minecraft
+          type_key: golden_apple
+          amount: 30
+          durability: 0
+    traitnames: owner,scoreboardtrait,skintrait,equipment,location,spawned,type,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §e§lVIP
+    uuid: aac424d6-274a-4db8-a0f2-d7cfb1d92179
+    traits:
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      skintrait:
+        fetchDefaultSkin: true
+        signature: k6jicZ9S3E4QUicL/Feg+uag6CoFwJiEtKNyA/lF6kesOVoFHPA/4LZ9/5vAhbdCM4UIJOQGIceDU65MupeEFpCIgXuW7kFinq/efC6dBWZICUQlgk/JYFmOi9pEY8uEsLv60F9sFHrNcRV4UsxnXdYZ64LIFs+9Hn04suezlMX1CrMyv7KFngVceuqu8ILXhQ2afuHzF+r0lEPqzS1uA96jVN77BoOb3uO1adzUrdRnBn+/80LEosze7ZR19MK35l25vgnMihgSi3EEE1plbBiwcmRyATMjL5bS8jc88BI+EhQyGw7sCM1nSh0M546gHUvR+mnRkcCvfqE9Vrg1dWaKix7yh1MIcF1GmEsK00gA7WMtX14TKIrNBzGklbm0bwQ5ni8e7IacaRVzzm9s/7UnTrVJHAvol/DkKRqYWpDMMGVLDJn3TddF83Hg8qKfKoAs8qaMTs3AMjCeVbBVzOVQwQ16nTY6MYzB43AMok1WvgstGr6Ly0HkE3hETU/L4qkmqHVBABf+vdiXHCGRbAx0W67ua3/9ufa32lr+vxwOwKnbRlBgIQLXLFsqyxNXNGw4wjCmh7z3OOwMiHzMDMnnMM+4vkb2EeGeYOfN/b/dO6qy41Kx2QVVx4FKqPhkmZn+iFA3BFJYsED4N5CBqy9/Wx7Z2zepl7HW4SXIfVM=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NTE0NzY4NjM1MCwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAC
+          enchantments:
+            sharpness: 2
+        helmet:
+          type_namespace: minecraft
+          type_key: diamond_helmet
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABVQUk9URUNUSU9OX1BST0pFQ1RJTEV1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+          enchantments:
+            projectile_protection: 2
+        chestplate:
+          type_namespace: minecraft
+          type_key: diamond_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABVQUk9URUNUSU9OX1BST0pFQ1RJTEV1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+          enchantments:
+            projectile_protection: 2
+        leggings:
+          type_namespace: minecraft
+          type_key: diamond_leggings
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABVQUk9URUNUSU9OX1BST0pFQ1RJTEV1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+          enchantments:
+            projectile_protection: 2
+        boots:
+          type_namespace: minecraft
+          type_key: diamond_boots
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABVQUk9URUNUSU9OX1BST0pFQ1RJTEV1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+          enchantments:
+            projectile_protection: 2
+        offhand:
+          type_namespace: minecraft
+          type_key: bow
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQADkFSUk9XX0lORklOSVRFdAAMQVJST1dfREFNQUdFdXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABcQB+ABU=
+          enchantments:
+            infinity: 1
+            power: 1
+      location:
+        bodyYaw: -144.61333
+        world: paper_1_18_1_1794939
+        x: '317.6348'
+        y: '83.0'
+        z: '303.625'
+        yaw: '-144.6133'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: iron_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAC
+          enchantments:
+            sharpness: 2
+        '36':
+          type_namespace: minecraft
+          type_key: diamond_boots
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABVQUk9URUNUSU9OX1BST0pFQ1RJTEV1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+          enchantments:
+            projectile_protection: 2
+        '37':
+          type_namespace: minecraft
+          type_key: diamond_leggings
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABVQUk9URUNUSU9OX1BST0pFQ1RJTEV1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+          enchantments:
+            projectile_protection: 2
+        '38':
+          type_namespace: minecraft
+          type_key: diamond_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABVQUk9URUNUSU9OX1BST0pFQ1RJTEV1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+          enchantments:
+            projectile_protection: 2
+        '39':
+          type_namespace: minecraft
+          type_key: diamond_helmet
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0ABVQUk9URUNUSU9OX1BST0pFQ1RJTEV1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+          enchantments:
+            projectile_protection: 2
+        '40':
+          type_namespace: minecraft
+          type_key: bow
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAAAnQADkFSUk9XX0lORklOSVRFdAAMQVJST1dfREFNQUdFdXEAfgAGAAAAAnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABcQB+ABU=
+          enchantments:
+            infinity: 1
+            power: 1
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,scoreboardtrait,skintrait,smoothrotationtrait,equipment,location,spawned,type,inventory,mounttrait,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

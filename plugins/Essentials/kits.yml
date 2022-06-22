@@ -1,26 +1,235 @@
-# EssentialsX new Kit configuration.
-# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
-# 
-# Note: All items MUST be followed by a quantity!
-# All kit names should be lower case, and will be treated as lower in permissions/costs.
-# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
-# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
-# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
-# Set delay to -1 for a one time kit.
-# For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
-  Starter:
+  warrior:
     delay: 86400
     items:
-    - iron_pickaxe 1 name:&6Starter_Pickaxe lore:Welcome_To_The_Server!
-    - iron_axe 1 name:&6Starter_Axe lore:Welcome_To_The_Server!
-    - iron_shovel 1 name:&6Starter_Spade lore:Welcome_To_The_Server!
-    - iron_sword 1 name:&6Starter_Sword lore:Welcome_To_The_Server!
-    - cooked_beef 32 name:&6Starter_Steak lore:NOM_NOM
-    - iron_helmet 1 name:&6Starter_Helmet lore:Welcome_To_The_Server!
-    - iron_chestplate 1 name:&6Starter_ChestPlate lore:Welcome_To_The_Server!
-    - iron_leggings 1 name:&6Starter_Pants lore:Welcome_To_The_Server!
-    - iron_boots 1 name:&6Starter_Boots lore:Welcome_To_The_Server!
-    - torch 16
-    - log 32
-    - iron_ingot 8
+    - iron_sword 1 damage_all:2
+    - chainmail_helmet 1
+    - chainmail_chestplate 1
+    - chainmail_leggings 1
+    - chainmail_boots 1
+    - strong_swiftness_potion 1
+    - strong_swiftness_potion 1
+    - strong_swiftness_potion 1
+    - strong_swiftness_potion 1
+    - cooked_beef 32
+    - ender_pearl 3
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+  tank:
+    delay: 259200
+    items:
+    - stone_sword 1 damage_all:1
+    - iron_helmet 1 protection_environmental:4
+    - iron_chestplate 1 protection_environmental:4
+    - iron_leggings 1 protection_environmental:4
+    - iron_boots 1 protection_environmental:4
+    - cooked_beef 32
+    - ender_pearl 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+  archer:
+    delay: 86400
+    items:
+    - wooden_sword 1
+    - bow 1 arrow_damage:3
+    - iron_helmet 1
+    - iron_chestplate 1
+    - iron_leggings 1
+    - iron_boots 1
+    - strong_swiftness_splash_potion 1
+    - arrow 64
+    - cooked_beef 32
+    - ender_pearl 8
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_swiftness_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_swiftness_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_swiftness_splash_potion 1
+  trapper:
+    delay: 86400
+    items:
+    - diamond_shovel 1
+    - hopper 1
+    - redstone_torch 8
+    - redstone_block 4
+    - repeater 1
+    - sticky_piston 2
+    - cooked_beef 32
+    - piston 4
+    - string 64
+    - string 64
+    - string 64
+    - string 64
+    - string 64
+    - string 64
+    - string 64
+    - string 64
+  alchemist:
+    delay: 86400
+    items:
+    - brewing_stand 1
+    - cauldron 1
+    - cooked_beef 32
+    - awkward_potion 1
+    - awkward_potion 1
+    - awkward_potion 1
+    - awkward_potion 1
+    - awkward_potion 1
+    - awkward_potion 1
+    - awkward_potion 1
+    - blaze_rod 32
+    - glistering_melon_slice 32
+    - sugar 32
+    - rabbit_foot 32
+    - golden_carrot 32
+    - magma_cream 64
+    - nether_wart 32
+  vip:
+    delay: 259200
+    items:
+    - iron_sword 1 damage_all:2
+    - diamond_chestplate 1 protection_projectile:2
+    - diamond_leggings 1 protection_projectile:2
+    - diamond_boots 1 protection_projectile:2
+    - diamond_helmet 1 protection_projectile:2
+    - bow 1 arrow_infinite:1 arrow_damage:1
+    - cooked_porkchop 64
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - arrow 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+  mvp:
+    delay: 400000
+    items:
+    - diamond_sword 1 damage_all:5
+    - diamond_chestplate 1 protection_projectile:2 protection_environmental:4
+    - diamond_leggings 1 protection_projectile:2 protection_environmental:4
+    - diamond_boots 1 protection_projectile:2 protection_environmental:4
+    - diamond_helmet 1 protection_projectile:2 protection_environmental:4
+    - bow 1 arrow_fire:1 arrow_infinite:1 arrow_damage:5
+    - cooked_porkchop 64
+    - golden_apple 30
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - arrow 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
+    - strong_healing_splash_potion 1
