@@ -1,0 +1,24 @@
+{
+  "Type": "COD",
+  "Loot": [
+    {
+      "xp": 0,
+      "Type": "COD",
+      "Burned Type": "COOKED_COD",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true,
+      "requireCharged": false
+    },
+    {
+      "xp": 0,
+      "Type": "BONE_MEAL",
+      "Chance": 5.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true,
+      "requireCharged": false
+    }
+  ]
+}

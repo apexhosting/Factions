@@ -1,0 +1,14 @@
+{
+  "Type": "SKELETON_HORSE",
+  "Loot": [
+    {
+      "xp": 0,
+      "Type": "BONE",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true,
+      "requireCharged": false
+    }
+  ]
+}

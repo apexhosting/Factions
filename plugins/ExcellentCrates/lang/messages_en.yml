@@ -1,0 +1,128 @@
+Command:
+  Drop:
+    Usage: <crateId> <world> <x> <y> <z>
+    Desc: Drop crate at specified location in the world.
+    Done: Dropped &6%crate_name%&7 at &6%x%&7, &6%y%&7, &6%z%&7 in &6%world%&7.
+  ForceOpen:
+    Desc: Force open a crate for a player.
+    Usage: <crateId> [player]
+    Done: Force opened &6%crate_name%&7 for &6%player%&7.
+    Notify: You have been forced to open &6%crate_name%&7.
+  Give:
+    Usage: <player | *> <crateId> [amount]
+    Desc: Gives crate(s) to a player.
+    Done: Given &6x%amount% &7of &6%crate_name% &7crate(s) to &6%player%&7.
+    Notify: You recieved &6x%amount% &7of &6%crate_name%&7!
+  Key:
+    Desc: Manage or view player's crate keys.
+    Error:
+      Player: '&cCould not proccess operation for offline/invalid player &e%player%&c!'
+    Give:
+      Usage: <player | *> <keyId> <amount>
+      Desc: Give crate key(s) to a player.
+      Done: Given &ax%amount% &7of &a%key_name% &7key(s) to &a%player%&7.
+      Notify: You recieved &ax%amount% &7of &a%key_name%&7!
+    Take:
+      Usage: <player | *> <keyId> <amount>
+      Desc: Take crate key(s) from a player.
+      Done: Taken &cx%amount% &c%key_name% &7key(s) from &c%player%
+      Notify: You lost &cx%amount% &c%key_name%&7!
+    Set:
+      Usage: <player | *> <keyId> <amount>
+      Desc: Set crate key(s) amount for a player.
+      Done: Set &ex%amount% &7of &e%key_name% &7key(s) for &e%player%&7.
+      Notify: Your &e%key_name%&7 amount has been changed to &ex%amount%&7!
+    Show:
+      Desc: Show amount of your or other player keys.
+      Usage: '[player]'
+      Format:
+        List:
+        - '{message: ~prefix: false;}'
+        - '&6&m              &6&l[ &a%player% &e&lCrate Keys &6&l]&6&m              &6'
+        - '&7'
+        - '&6▸ &e%key_name%: &6%amount%'
+  Preview:
+    Desc: Open crate preview.
+    Usage: <crateId> [player]
+    Done:
+      Others: Opened &6%crate_name%&7 preview for &6%player%&7.
+  ResetLimit:
+    Desc: Reset reward win limit for specified crate and reward.
+    Usage: <player> <crateId> [rewardId]
+    Done:
+      Crate: Reset &6%player% &7win limit for all rewards of &6%crate_name%&7.
+      Reward: Reset &6%player% &7win limit for &6%reward_name% &7reward of &6%crate_name%&7.
+  ResetCooldown:
+    Desc: Reset player cooldown for specified crate.
+    Usage: <player> <crateId>
+    Done: Reset &6%player% &7cooldown for &6%crate_name%&7.
+  Menu:
+    Usage: '[menuId]'
+    Desc: Open crate menu.
+    Done:
+      Others: Opened &6%menu_id%&7 crate menu for &6%player%&7.
+Crate:
+  Error:
+    Invalid: '&cInvalid crate!'
+  Open:
+    Error:
+      InventorySpace: '&cPlease clean up your inventory to open the crate!'
+      Cooldown:
+        Temporary: '&cYou have to wait &6%time% &7before you can open &6%crate_name%&7
+          again!'
+        OneTimed: '&cYou already have opened this crate, you can not open it more!'
+      NoKey: '&cYou don''t have a key for this crate!'
+      NoRewards: '&cThis crate does not contains any rewards for you!'
+      Cost:
+        Money: '&cYou don''t have enough money to open this crate!'
+        Exp: '&cYou don''t have enough exp levels to open this crate!'
+    Reward:
+      Info: You got the &6%reward_name% &7reward from the &6%crate_name%&7!
+      Broadcast: '&7Player &a%player% &7just got the &6%reward_name% &7reward from
+        the &6%crate_name%&7!'
+  Key:
+    Error:
+      Invalid: '&cInvalid key!'
+  Placeholder:
+    Cooldown:
+      Blank: Ready to open!
+Menu:
+  Invalid: '&cMenu does not exist!'
+Editor:
+  Crate:
+    Enter:
+      Id: '&7Enter &aunique &7crate &aidentifier&7...'
+      DisplayName: '&7Enter crate &adisplay name&7...'
+      Particle:
+        Name: '&7Enter &aparticle &7name...'
+        Data: '&7Enter &aparticle &7data...'
+      KeyId: '&7Enter &akey &7identifier...'
+      BlockLocation: '&7Click a &ablock &7to assign crate...'
+      BlockHologramText: '&7Enter &atext &7line...'
+      BlockHologramOffset: '&7Enter &aoffset &7value...'
+      Cooldown: '&7Enter &acooldown &7in seconds...'
+      Citizens: '&7Enter &aCitizens NPC &7ID...'
+      AnimationConfig: '&7Enter &aanimation config &7name...'
+      PreviewConfig: '&7Enter &apreview config &7name...'
+      OpenCost:
+        Money: '&7Enter &amoney &7cost...'
+        Exp: '&7Enter &aexp levels &7cost...'
+    Error:
+      Create:
+        Exists: '&cCrate with such id is already exists!'
+  Reward:
+    Enter:
+      Id: '&7Enter &aunique &7reward &aidentifier&7...'
+      DisplayName: '&7Enter reward &adisplay name&7...'
+      Chance: '&7Enter win &achance&7...'
+      Command: '&7Enter a &acommand&7...'
+      WinLimit:
+        Amount: '&7Enter win limit &aamount&7...'
+        Cooldown: '&7Enter win limit &acooldown&7...'
+    Error:
+      Create:
+        Exist: '&cReward with such id is already exists!'
+  Key:
+    Error:
+      Create:
+        Exist: Key with such id is already exists!

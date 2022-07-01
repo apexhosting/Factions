@@ -1,0 +1,54 @@
+Name: §bWarrior Crate
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 86400
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - §c§lWARRIOR
+    - §eClick to Open
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    warriorkit:
+      Name: Warrior Kit
+      Chance: 100.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qd5p6urivedrmusj418006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000880016ip002dmmirj5cdp62pjk79pmgobie1n6asrj08006r3mdg0040000400agrfeln78080
+      - a0000g002d5i006jdd5n6aoric5j78ej3d1gmirjdc5kmonr8clm6qpbk18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      - 1800020009km800udlkmspb3e9gmct1qcdk62qbedlgmir2vcdk6asrke1m62t3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      - k00010004qb400e6qqbeclhn4ob6egt66q31d5n6qob9dhfmopb7ctkmsprj18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      - 1800020009km800gdlkmspb3e9gmct1qe1nn8qbfdo5000rkc5jgg006a1nn8qbfdo01krb9dpim6sj1cpq3ksrke9nmspqvedrmipjkdpin6so00400agrfeln78100
+      - a0000g002d5i005bdd5n6aoric5j78ej3dtnmmpb4bth6apb60400agrfeln78800
+      - a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln780o0
+      - 1800020009km800ndlkmspb3e9gmct1qedo6oobjd1fn0rrkd5nms2g00dq62po800350rrkd5nms00odlkmspb3e9gmct1qedq74rrectfmgpb1dhkmspo00400agrfeln78680
+      - 1800020009km800pdlkmspb3e9gmct1qcdk62qbedlgmir2vc9nmut3j18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+Item:
+  Material: ENDER_CHEST
+  Amount: 1
+  Durability: 0
+  Item_Flags: []
+  Unbreakable: false
