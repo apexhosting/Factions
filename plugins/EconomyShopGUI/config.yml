@@ -117,7 +117,7 @@ economy-provider: VAULT
 # WILDSTACKER = An external spawner provider that can stack/upgrade spawners
 # ULTIMATESTACKER = An external spawner provider that can stack spawners
 # ROSESTACKER = An external spawner provider that can stack spawners
-spawner-provider: DEFAULT
+spawner-provider: ULTIMATESTACKER
 # NOTE: When there is no spawner provider set, the default will be used
 
 
