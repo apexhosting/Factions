@@ -1,0 +1,12 @@
+General:
+  # List of disabled currencies
+  Disabled_Currencies:
+  - currency1
+  - currency2
+  # List of disabled custom item plugin handlers.
+  Disabled_ItemHandlers:
+  - CustomSuperItems
+  - UltimateItemsPlugin
+  # Sets whether to apply PlaceholderAPI placeholders for the currency's 'Format' setting.
+  # Allows you to use custom images from Oraxen or ItemsAdder, as well as any other player unrelated placeholders.
+  PlaceholderAPI_In_Format: true

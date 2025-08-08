@@ -1,0 +1,18 @@
+location: world:320.7037517992849:88.2:288.491407500222
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: "&3&lEND"
+    height: 0.3
+  - content: "&e10000&7x&e10000"
+    height: 0.3
+  - content: "&7Blocks"
+    height: 0.3
+  - content: "#ICON: ENDER_PEARL"
+    height: 0.3
+  actions: {}

@@ -4,6 +4,9 @@ Main:
   # It is advised to keep this number low.
   Stack Search Tick Speed: 5
 
+  # Should entities stacked into existing stacks before they spawned?
+  Instant Stacking: false
+
   # Worlds that stacking doesn't happen in.
   Disabled Worlds:
   - World1
@@ -22,7 +25,7 @@ Entities:
   # The distance entities must be to each other in order to stack.
   Search Radius: 5
 
-  # The max amount of entities in a single stack.
+  # The max amount of entities in a single stack. Max value is 2000000000
   Max Stack Size: 15
 
   # The minimum amount required before a stack can be formed.
@@ -33,8 +36,11 @@ Entities:
   Max Per Type Stacks Per Chunk: -1
 
   # Should all qualifying entities in each chunk be stacked?
-  # This will override the stacking radius.
   Stack Whole Chunk: false
+
+  # Radius in chunks every direction around the entity that will be stacked.
+  # 0 means only the chunk the entity is in.
+  Stack Whole Chunk Radius: 1
 
   # Should holograms be displayed above stacked entities?
   Holograms Enabled: true
@@ -93,7 +99,10 @@ Entities:
   # "HORSE_STYLE", "HORSE_CARRYING_CHEST", "HORSE_HAS_ARMOR", "HORSE_HAS_SADDLE",
   # "HORSE_JUMP", "RABBIT_TYPE", "VILLAGER_PROFESSION", "LLAMA_COLOR",
   # "LLAMA_STRENGTH", "PARROT_TYPE", "PUFFERFISH_STATE", "TROPICALFISH_PATTERN",
-  # "TROPICALFISH_BODY_COLOR", "TROPICALFISH_PATTERN_COLOR", "PHANTOM_SIZE", "CAT_TYPE".
+  # "TROPICALFISH_BODY_COLOR", "TROPICALFISH_PATTERN_COLOR", "PHANTOM_SIZE", "CAT_TYPE"
+  # "AXOLOTL_VARIANT", "AXOLOTL_PLAYING_DEAD", "GLOW_SQUID_DARK_TICKS", "GOAT_HAS_HORNS",
+  # "FROG_VARIANT", "TADPOLE_AGE", "WARDEN_ANGER_LEVEL", "SNIFFER_HAS_SEEDS",
+  # "FOX_TYPE", "HOGLIN_IMMUNE".
   Stack Checks:
   - NERFED
   - AGE
@@ -104,6 +113,7 @@ Entities:
   - SLIME_SIZE
   - PIG_SADDLE
   - SHEEP_SHEARED
+  - SHEEP_COLOR
   - SNOWMAN_DERPED
   - WOLF_COLLAR_COLOR
   - HORSE_STYLE
@@ -118,6 +128,11 @@ Entities:
   - TROPICALFISH_BODY_COLOR
   - TROPICALFISH_PATTERN_COLOR
   - PHANTOM_SIZE
+  - AXOLOTL_PLAYING_DEAD
+  - GLOW_SQUID_DARK_TICKS
+  - FROG_VARIANT
+  - SNIFFER_HAS_SEEDS
+  - HOGLIN_IMMUNE
 
   # These are checks that when achieved will break separate a single entity
   # from a stack.
@@ -205,7 +220,7 @@ Items:
   # Should items that are blacklisted display holograms?
   Show Holograms For Blacklisted Items: true
 
-  # The max stack size for items.
+  # The max stack size for items. Max value is 1500000000
   Max Stack Size: 512
 
   # The text displayed above a dropped item.
@@ -256,6 +271,9 @@ Spawners:
   # Toggle ability to receive a stacked spawner when breaking a spawner while sneaking.
   Sneak To Receive A Stacked Spawner: true
 
+  # Should the player be able to add all spawners to the stack if they are sneaking?
+  Sneak To Add All: true
+
   # Should spawners not break when blown up?
   Prevent Spawners From Exploding: false
 
@@ -304,20 +322,3 @@ System:
   # The enabled language file.
   # More language files (if available) can be found in the plugins data folder.
   Language Mode: en_US
-
-MySQL:
-
-  # Set to 'true' to use MySQL instead of SQLite for data storage.
-  Enabled: false
-
-  Hostname: localhost
-
-  Port: 3306
-
-  Database: your-database
-
-  Username: user
-
-  Password: pass
-
-  Use SSL: false

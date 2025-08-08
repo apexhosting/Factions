@@ -1,0 +1,107 @@
+Selection:
+  Amount: 1
+  Icon:
+    Material: minecraft:lime_stained_glass_pane
+    Display_Name: '<green><b>Selected: </b></green><white>%reward_name%</white>'
+    Lore:
+    - <gray>You'll get this reward.</gray>
+    - ''
+    - <green>→ <u>Click to unselect</u></green>
+    Hide_Components: true
+  Sound-V: minecraft:block.note_block.iron_xylophone;0.8;1.0
+  Sound-X: minecraft:block.glass.break;0.8;1.0
+  Sound-Limit: minecraft:entity.villager.no;0.8;1.0
+  Sound-Confirm: minecraft:block.vault.open_shutter;0.8;1.0
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'page_next', 'page_previous', 'confirm']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: generic_9x6
+  Title: <black>Select %amount% reward(s)!</black>
+  Auto_Refresh: -1
+  PlaceholderAPI:
+    Enabled: false
+Reward:
+  Slots: 10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34
+  Name: '%reward_name%'
+  Lore:
+  - '%reward_description%'
+  - '%empty-if-above%'
+  - <lyellow>→ <u>Click to select</u></lyellow>
+  EntryName: <gray>- %reward_name%</gray>
+Content:
+  black_stained_glass_pane:
+    Priority: 0
+    Item:
+      Material: minecraft:black_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 45,46,47,48,49,50,51,52,53
+    Type: 'null'
+  page_next:
+    Priority: 10
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <lyellow><u>Next Page</u> →</lyellow>
+      Lore:
+      - '%empty-if-above%'
+      - '%empty-if-below%'
+    Slots: '53'
+    Type: page_next
+  page_previous:
+    Priority: 10
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <lyellow>← <u>Previous Page</u></lyellow>
+      Lore:
+      - '%empty-if-above%'
+      - '%empty-if-below%'
+    Slots: '45'
+    Type: page_previous
+  confirm:
+    Priority: 10
+    Item:
+      Material: minecraft:lime_dye
+      Display_Name: <green><b>Confirm</b></green>
+      Lore:
+      - <gray>You'll get the following rewards:</gray>
+      - '%rewards%'
+      - '%empty-if-above%'
+      - <green>→ <u>Click to confirm</u></green>
+      Hide_Components: true
+    Slots: '49'
+    Type: confirm
+  close:
+    Priority: 1
+    Item:
+      Material: minecraft:gray_dye
+      Display_Name: <white><b>Confirm</b></white> <gray>(Not Enough)</gray>
+      Lore:
+      - <gray>You selected <white>%current%</white>/<white>%amount%</white> rewards.</gray>
+      - ''
+      - <white>→ <u>Click to exit</u></white>
+      Hide_Components: true
+    Slots: '49'
+    Type: close

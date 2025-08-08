@@ -112,6 +112,9 @@ COMMAND:
       ENOUGH:
         POINTS: '&cYour faction does not have enough points to purchase this upgrade!'
     DISABLED: '&c[!] &7Faction Upgrades are &cdisabled&7.'
+    LEVEL:
+      ERROR: '&c[!] &7Faction Upgrade &e%1$s &7of level &e%2$s &7led to an invalid
+        value&7.'
   CORNER:
     CANT:
       CLAIM: '&c&l[!] &cYou may not claim this corner!'
@@ -362,6 +365,9 @@ COMMAND:
     YOUSHOULD: '&c&l[!]&7 You should now: &c%1$s'
     CREATEDLOG: ' created a new faction: '
     DESCRIPTION: Create a new faction
+    OVER:
+      LIMIT: '&c&l[!]&7 &cThe amount of factions allowed on the server has already
+        been reached!'
   DELHOME:
     SUCCESS: '%1$s has deleted your faction home'
     DESCRIPTION: delete home of your faction
@@ -392,6 +398,9 @@ COMMAND:
     DESCRIPTION: Invite a player to your faction
     BANNED: '&c&l[!]&7 &7%1$s &cis banned &7from your Faction. &cNot &7sending an
       invite.'
+    NOT:
+      IN:
+        ROSTER: '&c&l[!] &b%s &7is not in your factions roster!'
   DEINVITE:
     CANDEINVITE: '&c&l[!]&7 Players you can &cdeinvite: '
     CLICKTODEINVITE: '&c&l[!]&7 Click to &crevoke&7 invite for &c%1$s'
@@ -430,6 +439,11 @@ COMMAND:
       &clost&7 if the faction is &cdisbanded&7. Type&c /f disband &7again within &c10&7
       seconds to&c disband&7.'
     DESCRIPTION: Disband a faction
+    SPAWNERS:
+      SPAWNER:
+        CHUNKS:
+          FOUND: '&cYou may not disband a faction while there are spawners in your
+            spawnerchunks.'
   FLY:
     DISABLED: '&c&l[!]&7 Sorry, Faction flight is &cdisabled &7on this server.'
     DESCRIPTION: Enter or leave Faction flight mode
@@ -533,6 +547,18 @@ COMMAND:
     MOVEDLOG: '&c&l[!]&7 &c%1$s &7moved the player&c %2$s &7into the faction&c %3$s&7.'
     DESCRIPTION: '&a&l» &7Join a faction'
     BANNED: '&c&l[!]&7 You are &cbanned &7from &c%1$s.'
+    NOT:
+      IN:
+        ROSTER: '&c&l[!] &7You cannot join this faction, you''re not on their roster!'
+    ROSTER:
+      JOIN:
+        COOLDOWN: '&c&l[!] &7You are currently on cooldown from joining this faction!'
+        'NO':
+          ROOM:
+            ONLINE: '&c&l[!] &7All of the players in this faction are online!'
+            FULL: '&c&l[!] &7This faction is currently full of players!'
+          REPLACEMENT:
+            FOUND: '&c&l[!] &7There was no valid replacement found in this faction!'
   KICK:
     CANDIDATES: '&c&l[!]&7 Players you can kick: '
     CLICKTOKICK: 'Click to kick '
@@ -1097,6 +1123,10 @@ COMMAND:
     UNCLAIMED: '%1$s unclaimed ALL of your faction''s land.'
     LOG: '%1$s unclaimed everything for the faction: %2$s'
     DESCRIPTION: Unclaim all of your factions land
+    SPAWNERS:
+      IN:
+        CHUNK: '&cYou may not unclaim a spawnerchunk whilst there are still spawners
+          in it!'
   UNCLAIMFILL:
     DESCRIPTION: Unclaim contiguous land
     ABOVEMAX: '&cThe maximum limit for unclaim fill is %s.'
@@ -1154,6 +1184,65 @@ COMMAND:
       DESCRIPTION: Toggle global chat and only allow factions based chats
   MISSION:
     DESCRIPTION: Opens missions gui
+  SANDBOTS:
+    DESCRIPTION: The ability to spawn sandbots in
+  SET:
+    BASE:
+      REGION:
+        FAILED: '&cPlease wait {time} minutes before resetting your base region.'
+        SUCCESS: '&aSaved {claims} connected claims in a 50x50 radius as your faction''s
+          base region.'
+        DESCRIPTION: Set base region for faction
+        RESET: '&aYour factions Base Region has been successfully cleared'
+        MAX:
+          REGIONS: '&c&l[!] &7Your faction already has set their base region &e%1$s&7/&e%2$s
+            times!'
+        GRACE: '&c&l[!] &7You may not set your base region whilst &cgrace is disabled&7!'
+        NOT:
+          CLAIMS: '&c&l[!] &7You must be in &eyour own claims &7to use this command!'
+    RELATION:
+      SUCCESS: '&c&l[!] &7You have set a relation of &e%1$s &7between &b%2$s and &b%3$s&7.'
+      DESCRIPTION: Set the relation of 2 factions.
+  ALLYFWARP:
+    INVALID:
+      FACTION: '&c&l[!] &cThat faction does not exist!'
+    DESCRIPTION: Teleport to a ally/truces faction warps
+    USAGE: '&c&l[!]&7 /f warp <faction> <warpname> &c[password]'
+    MUSTBE: '&c&l[!] &cYou must be at least truced with this faction to access their
+      warps!'
+  ROSTERADD:
+    INVALIDROLE: '&c&l[!] &7Please enter a valid role: &ecoleader, mod, member, recruit'
+    ALREADY:
+      MEMBER: '&c&l[!] &7This player is already in your roster!'
+    FULL: '&c&l[!] &7Your roster is currently full!'
+    NOT:
+      FOUND: '&c&l[!] &7That player cannot be found!'
+    PLAYER:
+      ADDED: '&a&l[!] &7You have added &e%1$s &7to your roster with the role &a%2$s&7!'
+    CANNOT:
+      ADD:
+        SELF: '&a&l[!] &7You cannot add yourself to the roster!'
+    DESCRIPTION: Add users to your roster
+  ROSTERREMOVE:
+    NOT:
+      FOUND: '&c&l[!] &7That player cannot be found!'
+      IN:
+        ROSTER: '&c&l[!] &7That player is not in your factions roster!'
+    CANNOT:
+      REMOVE:
+        SELF: '&a&l[!] &7You cannot remove yourself from the roster!'
+    DESCRIPTION: Remove users from your roster
+    MAX:
+      KICKS:
+        REACHED: '&c&l[!] &7Your faction has reached the maximum amount of roster
+          kicks! &e%1$d&f/&e%2$d'
+  ROSTEREMOVE:
+    PLAYER:
+      REMOVED: '&a&l[!] &7You have removed &e%1$s &7from your roster!'
+  ROSTER:
+    DESCRIPTION: General roster usage for your faction
+  SHIELD:
+    DESCRIPTION: Use of shield selection guis
 command:
   help:
     invitations: 'You might want to close it and use invitations:'
@@ -1178,6 +1267,9 @@ ANTI:
     MINE:
       PLAYERS:
         NEAR: '&c&l[!] &7You may not break spawners while enemies are near!'
+  LOOT:
+    PICKUP:
+      FAILED: '&c&l(LOOT) &cYou cannot loot this item for {seconds}s!'
 BOOSTER:
   CANNOT:
     USE:
@@ -1369,6 +1461,18 @@ PAYPALSEE:
 FACTION:
   RALLY:
     MESSAGE: '&e&l[!] &7%1$s''s coords are &e%2$s, %3$s, %4$s'
+  BANNER:
+    CANNOT:
+      DESTROY:
+        '1': '&c&l[!] &cYou cannot destroy %1$s''s banner!'
+        '2': '&7It will despawn in: %1$ss!'
+      PLACE: '&c&l[!] &cYou cannot place Faction Banners ion this world!'
+    MUST:
+      PLACE: '&c&l[!] &cYou must place Faction Banners directly beneath you'
+    ALREADY:
+      PLACED:
+        '1': '&c&l[!] &cYour faction already has an active /f banner placed!'
+        '2': '&7You can place a new /f banner in: %1$ss!'
 SHOP:
   NOT:
     ENOUGH:
@@ -1391,6 +1495,8 @@ LEAVE:
   DISBANDED: '&c&l[!] &c%s&7 was disbanded.'
   DISBANDEDLOG: The faction %s (%s) was disbanded due to the last player (%s) leaving.
   DESCRIPTION: \n  &a&l» &7Leave your faction
+  LAST:
+    PLAYER: '&c&l[!] &7You are the last player in your faction. You must disband it.'
 AUTOLEAVE:
   ADMIN:
     PROMOTED: '&e&l[!] &7Faction admin &c%s&7 has been removed. &c%s&7 has been promoted
@@ -1506,8 +1612,25 @@ MISSION:
       COMPLETED: '&c&l[!] &7Your faction has completed all available missions.'
     FINISHED: '&c&l[!] &7Your faction has successfully completed %1$s mission!'
     CANCELLED: '&c&l[!] &7You have cancelled your factions current mission!'
+    FAILED: '&c&l[!] &7Your faction has failed %1$s &cmission!'
   ALREAD:
     COMPLETED: '&c&l[!] &7You may not restart a mission you have already completed'
+  TRIBUTE:
+    ITEM:
+      DENIED:
+        TRANSFER: '&c&l[!] &7There are no tribute missions that accept &b%1$s&7.'
+  RANDOM:
+    MODE:
+      DENIED: '&c&l[!] &7Please select the %1$s&7 item to have a random mission assigned.'
+  CANCEL:
+    POINTS:
+      TAKEN: '&cFaction Mission cancelled for &e%1$s points! &cNew Point Balance:
+        &e%2$s'
+    NOT:
+      ENOUGH:
+        POINTS: '&cYour faction does not have enough points to cancel this mission!'
+  TOCANCEL: to cancel this mission.
+  FORCANCEL: for cancelling this mission.
 PLAYER:
   NOT:
     FOUND: '&c&l[!] &b%1$s &7is either not online or not in your faction!'
@@ -1590,6 +1713,8 @@ ECON:
   DEPOSITFAILED: '&c%s&7 would have gained &c%s&7 %s, but the deposit failed.'
   CANTCONTROLMONEY: '&c%s&7 lacks permission to control &c%s&7''s money.'
   MONEYTRASFERREDFROMPERSONTOPERSON: '%1$s transferred %2$s from %3$s to %4$s.'
+  BALANCE:
+    DESC: balance
 RELATION:
   MEMBER:
     SINGULAR: member
@@ -1612,6 +1737,7 @@ ROLE:
   MODERATOR: moderator
   NORMAL: normal member
   RECRUIT: recruit
+  LIST: '&eTry using &arecruit, normal, moderator, coleader'
 REGION:
   SAFEZONE: safezone
   WARZONE: warzone
@@ -1652,3 +1778,20 @@ WARMUPS:
   CANCELLED: '&cYou have cancelled your warmup.'
 PLACEHOLDERAPI:
   'NULL': ''
+UPGRADE:
+  TOUPGRADE: to buy the %1$s upgrade
+  FORUPGRADE: for buying the %1$s upgrade
+GENERAL:
+  ENABLED: Enabled
+  DISABLED: Disabled
+'NO':
+  BALANCE:
+    PLACEHOLDER:
+      PARSED: no balance
+FACTIONS:
+  TOP:
+    POSITION:
+      FORMAT: '#{position}'
+      INVALID: N/A
+    WORTH:
+      INVALID: $0.00

@@ -1,163 +1,137 @@
-# Default Settings Configuration for CombatLogX
-# Made by SirBlobman for v10.4.2.4
+# CombatLogX Configuration File
+# This file is in YAML format.
+# YAML Format Information: https://yaml.org/
+# Make sure your editor is setup to use spaces instead of TAB characters.
+# You should also ensure that this file is saved as UTF-8.
 
-# Please DO NOT change this value or your config may be corrupted
-generated-by-version: "10.4.2.4"
+# DO NOT change this value or your config may be corrupted
+generated-by-version: "11.6.0.0.1286"
 
-# What is the name of the language file for CombatLogX?
-# If the file does not exist, the default will be used
-# File Location: /plugins/CombatLogX/language/<choice>.yml
-#
-# Default: "en_us"
-language: "en_us"
-
-# This option only works correctly in Spigot 1.12.2+
-# Should the plugin try to make the messages the same language that was selected by the player?
-# (Unknown or undetectable languages will use the language configured above)
-#
-# Default: true
-per-player-locale: true
-
-# Should extra messages be printed for certain tasks?
-# Only use this if you are having issues or you are asked to by SirBlobman
-#
+# Should debug messages be sent to the console?
+# This option should be enabled if you are reporting an error or bug.
 # Default: false
-debug: false
+debug-mode: false
 
-# Should the plugin check for updates after it's enabled?
-#
-# Default: true
-update-checker: true
-
+# These are toggles for the different broadcast messages
 broadcast:
-  # Should a message be broadcasted when the plugin is loaded by Bukkit?
-  #
-  # Default: true
   on-load: true
-
-  # Should a message be broadcasted when the plugin is enabled?
-  #
-  # Default: true
   on-enable: true
-
-  # Should a message be broadcasted when the plugin is disabled?
-  #
-  # Default: true
   on-disable: true
 
-# This is a list of worlds that CombatLogX will not tag players in
-# World names are case sensitive. "world" is not the same as "WoRlD"
+# This is a list of worlds that CombatLogX will ignore when tagging players.
+# World names are case-sensitive. "world" is not the same as "WoRlD"
 # Make sure you are not using the world aliases from Multiverse
-disabled-worlds: []
-
-# Set this to true to use the 'disabled-worlds' as a whitelist.
-# Default: false
-disabled-worlds-is-whitelist: false
-
-# This is a list of commands that will be executed whenever a player is tagged.
-# Commands will run in console by default
-# Available Prefixes:
-# [PLAYER] - run the command as the player that was tagged
-# [OP] - run the command as the player that was tagged, but with "Server Operator" permissions (not recommended)
-# Set this list to empty to disable the commands
-# e.g. "combat-sudo-command-list: []"
-combat-sudo-command-list: []
-
-# This is a list of commands that will be executed whenever a player is untagged
-# Commands will be run in console by default
-# Available Prefixes:
-# [PLAYER] - run the command as the player that was tagged
-# [OP] - run the command as the player that was tagged, but with "Server Operator" permissions (not recommended)
-# Set this list to empty to disable the commands
-# e.g. "untag-sudo-command-list: []"
-untag-sudo-command-list: []
-
-
-# Set this to true to link wolves, cats, parrots, and other pets to the entity that owns them.
-# This will only link the owner if the pet is the attacker
 #
+# Empty list example
+# disabled-world-list: []
+#
+# YAML List format example
+# disabled-world-list:
+# - "disabled_world_1"
+# - "DiSaBlEd_WoRlD_2"
+disabled-world-list: [ ]
+
+# This option changes the 'disabled-world-list' to a list of enabled worlds.
+# You can use this when you have fewer combat worlds than disabled worlds.
+# Default: false
+disabled-world-list-inverted: false
+
+# CombatLogX can link pets, such as wolves, cats, and other animals that can be tamed, to their owner.
+# This will only link the attacker, not the entity that was attacked.
 # Default: true
 link-pets: true
 
-# Set this to true to link arrows, potions, snowballs, eggs, and other projectiles that can be shot by entities.
-# This will only link the shooter if they are the attacker
-#
+# CombatLogX can link projectiles, such as arrows from skeletons, to their shooter.
+# This will only link the attacker, not the entity that was attacked.
 # Default: true
 link-projectiles: true
 
-combat:
-  # How long should players be tagged?
-  # The timer is in seconds.
-  #
-  # Default: 15
-  timer: 15
+# Which projectiles will be ignored when the 'link-projectiles' option is enabled?
+# If 'link-projectiles' is false, all projectiles will be ignored.
+# You can find a list of valid projectile types on the Spigot javadocs:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ignored-projectiles:
+  - EGG
+  - ENDER_PEARL
+  - SNOWBALL
 
-  # What permission should be used to bypass combat tagging?
-  # Set this to "" to disable the bypass permission.
-  #
-  # Default: "combatlogx.bypass"
-  bypass-permission: "combatlogx.bypass"
+# CombatLogX can link a fishing rod to the entity that cast it.
+# This will only link the attacker, not the entity that was attacked.
+# Default: true
+link-fishing-rod: true
 
-  # Should players be allowed to tag themselves using arrows?
-  #
-  # Default: false
-  self-combat: false
+# CombatLogX can sometimes link TNT to the entity that caused it to explode.
+# This will only link the attacker, not the entity that was attacked.
+# Default: true
+link-tnt: true
 
-untag:
-  # Should players be removed from combat when they die?
+timer:
+  # CombatLogX has two different types of timers that you can select.
   #
-  # Default: true
-  on-self-death: true
-
-  # Should players be removed from combat when their enemy is killed?
+  # GLOBAL:
+  # Every player will be tagged for the length of the 'default-timer' value.
   #
-  # Default: false
-  on-enemy-death: false
-
-punishments:
-  # Should players be punished when they quit the game?
+  # PERMISSION:
+  # Each player will be tagged for a different amount of time based on a permission.
+  # Permission Format: "combatlogx.timer.<seconds>"
+  # Permission Example: "combatlogx.timer.30"
+  # Any player that does not have a permission will be tagged with the 'default-timer' value.
   #
-  # Default: true
-  on-quit: true
+  # Default: GLOBAL
+  type: GLOBAL
 
-  # Should players be punished if they are kicked from the game?
-  #
-  # Default: false
-  on-kick: false
+  # This is the default amount of time that players will be tagged (in seconds).
+  # This value will be used if the timer type is GLOBAL or if a permission cannot be detected.
+  # Default: 10
+  default-timer: 10
 
-  # Which kick messages should be ignored for punishments?
-  # This option is ignored if `on-kick` is false
-  # The plugin uses a string contains check, so messages are case sensitive
-  on-kick-ignore-list:
-    - "kicked by SirBlobman"
-    - "troll"
+# Which permission will prevent players from being tagged into combat?
+# You must add this permission manually.
+# OPs do not have this permission by default.
+#
+# Setting the value of this option to "" will disable the bypass feature.
+# Default: "combatlogx.bypass"
+bypass-permission: "combatlogx.bypass"
 
-  # Should players be punished if the combat timer expires?
-  # You shouldn't need this option unless you're testing something
-  #
-  # Default: false
-  on-expire: false
+# Should CombatLogX tag players when they shoot themselves with a projectile?
+# Default: false
+self-combat: false
 
-  # When should the player be killed by CombatLogX?
-  # Valid Options: QUIT, JOIN, NEVER
-  #
-  # Default: QUIT
-  kill-time: QUIT
+# Should CombatLogX remove players from combat when they are killed?
+# Default: true
+untag-on-death: true
 
-  # A random message is selected from this list when the player is killed by CombatLogX
-  # If you don't want custom death messages set this to an empty list
-  #
-  # Disabled: custom-death-messages: []
-  custom-death-messages:
-    - "{name} was killed for logging out during combat."
-    - "{name} instantly died due to logging out during combat."
+# Should CombatLogX remove players from combat when their enemy is killed?
+# This also removed combat if the enemy is a creeper and decides to explode.
+# Default: true
+untag-on-enemy-death: true
 
-  # This is a list of commands that will be executed on the player that logged out.
-  # Set this to an empty list to not run any commands
-  # Commands will run in console if a prefix is not added
-  # Available Prefixes:
-  # [PLAYER] - run the command as the player that was tagged
-  # [OP] - run the command as the player that was tagged, but with "Server Operator" permissions (not recommended)
-  #
-  # Disabled: punish-command-list: []
-  punish-command-list: []
+# Should CombatLogX attempt to remove any damage cooldown effects from players during login and teleport events?
+# Default: true
+remove-no-damage-cooldown: true
+
+# How long must players wait between requests?
+# This cooldown is for the `/clx forgive request' command.
+# Default: 30 (seconds)
+forgive-request-cooldown: 30
+
+# How long does a request last before it expires?
+# This cooldown is for the `/clx forgive request' command.
+# Default: 10 (seconds)
+forgive-request-expire: 10
+
+# What is the minimum server TPS to allow tagging?
+minimum-tps: 15.0
+
+# Which tag reasons are allowed?
+# You can see a full list here:
+# https://github.com/SirBlobman/CombatLogX/blob/main/api/src/main/java/com/github/sirblobman/combatlogx/api/object/TagReason.java
+# Default: all
+enabled-tag-reasons:
+  - "*"
+
+## END OF CONFIG.YML
+## YOU ARE NOT FINISHED
+## Don't forget to configure your expansions and other files
+## commands.yml, language.yml, punish.yml
+## /plugins/CombatLogX/expansions/

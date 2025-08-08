@@ -2,14 +2,14 @@
 
 GriefPrevention:
   SeaLevelOverrides:
-    paper_1_18_1_1794939: -1
-    paper_1_18_1_1794939_nether: -1
-    paper_1_18_1_1794939_the_end: -1
+    world: -1
+    world_nether: -1
+    world_the_end: -1
   Claims:
     Mode:
-      paper_1_18_1_1794939_nether: Survival
-      paper_1_18_1_1794939_the_end: Survival
-      paper_1_18_1_1794939: Survival
+      world_nether: Disabled
+      world_the_end: Disabled
+      world: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -72,9 +72,9 @@ GriefPrevention:
     Logout Message Delay In Seconds: 0
   PvP:
     RulesEnabledInWorld:
-      paper_1_18_1_1794939: true
-      paper_1_18_1_1794939_nether: true
-      paper_1_18_1_1794939_the_end: true
+      world: true
+      world_nether: true
+      world_the_end: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15
@@ -129,7 +129,7 @@ GriefPrevention:
     - SAND
     - GRAVEL
     - GLASS
-    - GRASS
+    - GRASS     <-- can't understand this entry, see BukkitDev documentation
     - FERN
     - DEAD_BUSH
     - WHITE_WOOL
@@ -157,6 +157,7 @@ GriefPrevention:
   CreaturesTrampleCrops: false
   RabbitsEatCrops: true
   HardModeZombiesBreakDoors: false
+  MobProjectilesChangeBlocks: false
   Database:
     URL: ''
     UserName: ''
@@ -175,3 +176,4 @@ GriefPrevention:
       Administrative Activity: false
       Debug: false
       Muted Chat Messages: false
+  ConfigVersion: 1

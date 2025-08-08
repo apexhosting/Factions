@@ -1,309 +1,721 @@
-Name: §e§lGolden Crate
-Preview_Config: valentine
+Name: '&e&lGolden Crate'
 Permission_Required: false
 Attached_Citizens: ''
 Opening:
   Cooldown: 0
-  Cost:
-    MONEY: 0.0
-    EXP: 0.0
 Key:
   Ids:
-    - golden
+  - golden
+  Required: true
 Block:
-  Locations: [ ]
+  Locations: []
   Pushback:
     Enabled: true
   Hologram:
-    Enabled: false
+    Enabled: true
     Offset:
       Y: 1.85
     Text:
-      - §e§lGolden Crate
-      - §fLeft Click §7to preview
-      - §fRight Click §7to open
-      - §7
-      - §7Buy keys at §e§nwww.myserver.com§e§n
+    - §e§lGolden Crate
+    - §fLeft Click §7to preview
+    - §fRight Click §7to open
+    - §7
+    - §7Buy keys at §e§nwww.myserver.com§e§n
+    Template: default
+    Y_Offset: 0.0
   Effect:
     Model: HELIX
     Particle:
-      Name: FLAME
-      Data: ''
+      Name: ENCHANT
+  Positions:
+  - 307,84,310,world
 Rewards:
   List:
     iron_helmet:
       Name: Iron Helmet
       Chance: 15.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400amqqbeclhn4ob6egt6isjfdpfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00c0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001g010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000o00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - k00010004qb400amqqbeclhn4ob6egt6isjfdpfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00c0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001g010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000o00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_helmet"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:iron_helmet"}'
+            DataVersion: 4440
+      Custom_Preview: false
     iron_chestplate:
       Name: Iron Chestplate
       Chance: 15.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 2g0004000j9cg01irb9dpim6sj1cpq3kqbidtn5uor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00c0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001g010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000o00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 2g0004000j9cg01irb9dpim6sj1cpq3kqbidtn5uor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00c0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001g010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000o00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_chestplate"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:iron_chestplate"}'
+            DataVersion: 4440
+      Custom_Preview: false
     iron_leggings:
       Name: Iron Leggings
       Chance: 15.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800ndlkmspb3e9gmct1qd5p6urivdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00c0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001g010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000o00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 1800020009km800ndlkmspb3e9gmct1qd5p6urivdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00c0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001g010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000o00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_leggings"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:iron_leggings"}'
+            DataVersion: 4440
+      Custom_Preview: false
     iron_boots:
       Name: Iron Boots
       Chance: 15.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400a6qqbeclhn4ob6egt6isjfdpfm4rrfehpgk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000o4000j9cg01krb9dpim6sj1cpq3kojcc5pn8nrge9nn8pb3ehkmurg2001motjc0030020009km800pdlkmspb3e9gmct1qcpim2t38clp5upj1dhm6irj708006r3mdg00c0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001g010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000o00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - k00010004qb400a6qqbeclhn4ob6egt6isjfdpfm4rrfehpgk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000o4000j9cg01krb9dpim6sj1cpq3kojcc5pn8nrge9nn8pb3ehkmurg2001motjc0030020009km800pdlkmspb3e9gmct1qcpim2t38clp5upj1dhm6irj708006r3mdg00c0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001g010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000o00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_boots"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:iron_boots"}'
+            DataVersion: 4440
+      Custom_Preview: false
     iron_sword:
       Name: Iron Sword
       Chance: 15.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400a6qqbeclhn4ob6egt6isjfdpfn6trfe9i0k003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm001g010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000o00g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr000o00g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - k00010004qb400a6qqbeclhn4ob6egt6isjfdpfn6trfe9i0k003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm001g010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000o00g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr000o00g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_sword"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:iron_sword"}'
+            DataVersion: 4440
+      Custom_Preview: false
     iron_axe:
       Name: Iron Axe
       Chance: 15.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i004jdd5n6aoric5j78ej9e9nmsnr1f1igk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm001g010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000o00g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr000o00g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - a0000g002d5i004jdd5n6aoric5j78ej9e9nmsnr1f1igk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm001g010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000o00g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr000o00g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_axe"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:iron_axe"}'
+            DataVersion: 4440
+      Custom_Preview: false
     iron_pickaxe:
       Name: Iron Pickaxe
       Chance: 15.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kqbidtn5us39cdlm2u3518006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm001g010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 2g0004000j9cg01crb9dpim6sj1cpq3kqbidtn5us39cdlm2u3518006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm001g010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_pickaxe"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:iron_pickaxe"}'
+            DataVersion: 4440
+      Custom_Preview: false
     iron_shovel:
       Name: Iron Shovel
       Chance: 15.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i005bdd5n6aoric5j78ej9e9nmsnrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm001g010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - a0000g002d5i005bdd5n6aoric5j78ej9e9nmsnrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm001g010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0030020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00c0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_shovel"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:iron_shovel"}'
+            DataVersion: 4440
+      Custom_Preview: false
     diamond_helmet:
       Name: Diamond Helmet
       Chance: 7.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i0063dd5n6aoric5j78ej4d5gmqrrechfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00e0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001o010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000s00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - a0000g002d5i0063dd5n6aoric5j78ej4d5gmqrrechfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00e0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001o010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000s00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_helmet"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:diamond_helmet"}'
+            DataVersion: 4440
+      Custom_Preview: false
     diamond_chestplate:
       Name: Diamond Chestplate
       Chance: 7.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800sdlkmspb3e9gmct1qchkm2rbfdpi5uor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00e0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001o010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000s00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 1800020009km800sdlkmspb3e9gmct1qchkm2rbfdpi5uor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00e0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001o010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000s00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_chestplate"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:diamond_chestplate"}'
+            DataVersion: 4440
+      Custom_Preview: false
     diamond_leggings:
       Name: Diamond Leggings
       Chance: 7.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400d6qqbeclhn4ob6egt68qb1dlnmsp2vdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00e0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001o010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000s00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - k00010004qb400d6qqbeclhn4ob6egt68qb1dlnmsp2vdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00e0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001o010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000s00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_leggings"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:diamond_leggings"}'
+            DataVersion: 4440
+      Custom_Preview: false
     diamond_boots:
       Name: Diamond Boots
       Chance: 7.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800ndlkmspb3e9gmct1qchkm2rbfdpi5uojfdtq762g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00e0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001o010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000s00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 1800020009km800ndlkmspb3e9gmct1qchkm2rbfdpi5uojfdtq762g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00e0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm001o010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr000s00g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_boots"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:diamond_boots"}'
+            DataVersion: 4440
+      Custom_Preview: false
     diamond_sword:
       Name: Diamond Sword
       Chance: 7.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i005rdd5n6aoric5j78ej4d5gmqrrechfn6trfe9i0k003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm001o010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000s00g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr000s00g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - a0000g002d5i005rdd5n6aoric5j78ej4d5gmqrrechfn6trfe9i0k003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm001o010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000s00g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr000s00g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_sword"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:diamond_sword"}'
+            DataVersion: 4440
+      Custom_Preview: false
     diamond_axe:
       Name: Diamond Axe
       Chance: 7.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 5000080016ip002lmmirj5cdp62pjk79i6iobddtn68nr1f1igk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm001o010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000s00g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr000s00g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 5000080016ip002lmmirj5cdp62pjk79i6iobddtn68nr1f1igk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm001o010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr000s00g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr000s00g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_axe"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:diamond_axe"}'
+            DataVersion: 4440
+      Custom_Preview: false
     diamond_pickaxe:
       Name: Diamond Pickaxe
       Chance: 7.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800pdlkmspb3e9gmct1qchkm2rbfdpi5us39cdlm2u3518006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm001o010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 1800020009km800pdlkmspb3e9gmct1qchkm2rbfdpi5us39cdlm2u3518006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm001o010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_pickaxe"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:diamond_pickaxe"}'
+            DataVersion: 4440
+      Custom_Preview: false
     diamond_shovel:
       Name: Diamond Shovel
       Chance: 7.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 5000080016ip0031mmirj5cdp62pjk79i6iobddtn68nrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm001o010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 5000080016ip0031mmirj5cdp62pjk79i6iobddtn68nrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm001o010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc003g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00e0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_shovel"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:diamond_shovel"}'
+            DataVersion: 4440
+      Custom_Preview: false
     nether_helmet:
       Name: Netherite Helmet
       Chance: 3.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400d6qqbeclhn4ob6egt6spbkd1in4qbkclfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - k00010004qb400d6qqbeclhn4ob6egt6spbkd1in4qbkclfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_helmet"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_helmet"}'
+            DataVersion: 4440
+      Custom_Preview: false
     nether_chestplate:
       Name: Netherite Chestplate
       Chance: 3.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 2g0004000j9cg01srb9dpim6sj1cpq3krj5ehk6asj9ehiluor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 2g0004000j9cg01srb9dpim6sj1cpq3krj5ehk6asj9ehiluor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_chestplate"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_chestplate"}'
+            DataVersion: 4440
+      Custom_Preview: false
     nether_leggings:
       Name: Netherite Leggings
       Chance: 3.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800sdlkmspb3e9gmct1qdpin8q35e9kn8pavdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 1800020009km800sdlkmspb3e9gmct1qdpin8q35e9kn8pavdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_leggings"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_leggings"}'
+            DataVersion: 4440
+      Custom_Preview: false
     nether_boots:
       Name: Netherite Boots
       Chance: 3.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 2g0004000j9cg01irb9dpim6sj1cpq3krj5ehk6asj9ehiluojfdtq762g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 2g0004000j9cg01irb9dpim6sj1cpq3krj5ehk6asj9ehiluojfdtq762g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_boots"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_boots"}'
+            DataVersion: 4440
+      Custom_Preview: false
     nether_sword:
       Name: Netherite Sword
       Chance: 3.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400cmqqbeclhn4ob6egt6spbkd1in4qbkclfn6trfe9i0k003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm0020010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr001000g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr001000g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - k00010004qb400cmqqbeclhn4ob6egt6spbkd1in4qbkclfn6trfe9i0k003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm0020010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr001000g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr001000g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_sword"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_sword"}'
+            DataVersion: 4440
+      Custom_Preview: false
     nether_axe:
       Name: Netherite Axe
       Chance: 3.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i005rdd5n6aoric5j78ejeclq6gpbid5q6anr1f1igk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm0020010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr001000g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr001000g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - a0000g002d5i005rdd5n6aoric5j78ejeclq6gpbid5q6anr1f1igk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm0020010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr001000g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr001000g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_axe"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_axe"}'
+            DataVersion: 4440
+      Custom_Preview: false
     nether_pickaxe:
       Name: Netherite Pickaxe
       Chance: 3.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3krj5ehk6asj9ehilus39cdlm2u3518006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0020010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 2g0004000j9cg01mrb9dpim6sj1cpq3krj5ehk6asj9ehilus39cdlm2u3518006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0020010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_pickaxe"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_pickaxe"}'
+            DataVersion: 4440
+      Custom_Preview: false
     nether_shovel:
       Name: Netherite Shovel
       Chance: 3.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i006jdd5n6aoric5j78ejeclq6gpbid5q6anrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0020010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - a0000g002d5i006jdd5n6aoric5j78ejeclq6gpbid5q6anrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0020010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
-Animation_Config: spin_mystery
-Item:
-  Material: PLAYER_HEAD
-  Amount: 1
-  Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU1YmI4YjMxZjQ2YWE5YWYxYmFhODhiNzRmMGZmMzgzNTE4Y2QyM2ZhYWM1MmEzYWNiOTZjZmU5MWUyMmViYyJ9fX0=
-  Durability: 0
-  Name: '&e&lGolden Crate &7(Right-Click)'
-  Lore:
-    - '&fLeft Click &7to preview'
-    - '&fRight Click &7to open'
-  Item_Flags: [ ]
-  Unbreakable: false
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_shovel"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_shovel"}'
+            DataVersion: 4440
+      Custom_Preview: false
+_dataver: 600
+ItemProvider:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#E6E632",italic:0b,obfuscated:0b,strikethrough:0b,text:"Golden Crate ",underlined:0b},{bold:0b,extra:[{bold:1b,color:"#A1A1A1",italic:0b,obfuscated:0b,strikethrough:0b,text:"(Right-Click)",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:damage":0,"minecraft:lore":[{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Left
+      Click ",underlined:0b},{bold:0b,extra:[{bold:0b,color:"#A1A1A1",italic:0b,obfuscated:0b,strikethrough:0b,text:"to preview",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Right Click ",underlined:0b},{bold:0b,extra:[{bold:0b,color:"#A1A1A1",italic:0b,obfuscated:0b,strikethrough:0b,text:"to
+      open",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],"minecraft:profile":{id:[I;681821892,2001482514,-1545687307,-1372415603],name:"9e5bb8b31f46aa9a",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU1YmI4YjMxZjQ2YWE5YWYxYmFhODhiNzRmMGZmMzgzNTE4Y2QyM2ZhYWM1MmEzYWNiOTZjZmU5MWUyMmViYyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:rarity","minecraft:death_protection","minecraft:recipes","minecraft:stored_enchantments","minecraft:mooshroom/variant","minecraft:fireworks","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:charged_projectiles","minecraft:bundle_contents","minecraft:potion_contents","minecraft:wolf/variant","minecraft:repair_cost","minecraft:damage_resistant","minecraft:banner_patterns","minecraft:max_stack_size","minecraft:writable_book_content","minecraft:entity_data","minecraft:fox/variant","minecraft:use_remainder","minecraft:container_loot","minecraft:written_book_content","minecraft:jukebox_playable","minecraft:repairable","minecraft:painting/variant","minecraft:equippable","minecraft:dyed_color","minecraft:cow/variant","minecraft:villager/variant","minecraft:parrot/variant","minecraft:note_block_sound","minecraft:can_place_on","minecraft:map_post_processing","minecraft:enchantable","minecraft:weapon","minecraft:instrument","minecraft:block_state","minecraft:consumable","minecraft:debug_stick_state","minecraft:lock","minecraft:pig/variant","minecraft:map_color","minecraft:frog/variant","minecraft:custom_data","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:enchantment_glint_override","minecraft:can_break","minecraft:llama/variant","minecraft:blocks_attacks","minecraft:sheep/color","minecraft:horse/variant","minecraft:chicken/variant","minecraft:provides_banner_patterns","minecraft:creative_slot_lock","minecraft:bucket_entity_data","minecraft:map_id","minecraft:cat/collar","minecraft:max_damage","minecraft:tool","minecraft:ominous_bottle_amplifier","minecraft:bees","minecraft:profile","minecraft:tropical_fish/pattern","minecraft:glider","minecraft:food","minecraft:wolf/collar","minecraft:trim","minecraft:use_cooldown","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:salmon/size","minecraft:provides_trim_material","minecraft:block_entity_data","minecraft:attribute_modifiers","minecraft:damage","minecraft:base_color","minecraft:cat/variant","minecraft:shulker/color","minecraft:container","minecraft:unbreakable","minecraft:enchantments","minecraft:pot_decorations","minecraft:rabbit/variant","minecraft:tropical_fish/pattern_color","minecraft:map_decorations","minecraft:suspicious_stew_effects","minecraft:potion_duration_scale","minecraft:tropical_fish/base_color"]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4440
+Preview:
+  Enabled: true
+  Id: valentine
+Animation:
+  Enabled: true
+  Id: csgo
+Description: []
+ItemStackable: true

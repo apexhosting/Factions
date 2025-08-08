@@ -1,0 +1,7 @@
+Items:
+  gold:
+    Value: '{count:1,id:"minecraft:gold_ingot"}'
+  diamond:
+    Value: '{count:1,id:"minecraft:diamond"}'
+  emerald:
+    Value: '{count:1,id:"minecraft:emerald"}'

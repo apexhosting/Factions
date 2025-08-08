@@ -1,0 +1,6 @@
+Command:
+  FromItem:
+    Desc: Create item currency.
+    Error:
+      NoItem: <lred>You must hold an item in hand!</lred>
+    Created: <lgray>Created <lyellow>%currency_name%</lyellow> currency as <lyellow>%currency_id%</lyellow>.</lgray>

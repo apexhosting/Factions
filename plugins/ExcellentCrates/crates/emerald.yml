@@ -1,240 +1,558 @@
-Name: §a§lEmerald Crate
-Preview_Config: xmas
-Animation_Config: spin_csgo
+Name: '&a&lEmerald Crate'
 Permission_Required: false
 Attached_Citizens: ''
 Opening:
   Cooldown: 0
-  Cost:
-    MONEY: 0.0
-    EXP: 0.0
 Key:
   Ids:
-    - emerald
+  - emerald
+  Required: true
 Block:
-  Locations: [ ]
+  Locations: []
   Pushback:
     Enabled: true
   Hologram:
-    Enabled: false
+    Enabled: true
     Offset:
       Y: 1.5
     Text:
-      - §a§lEmerald Crate
-      - §fLeft Click §7to preview
-      - §fRight Click §7to open
+    - §a§lEmerald Crate
+    - §fLeft Click §7to preview
+    - §fRight Click §7to open
+    Template: default
+    Y_Offset: 0.0
   Effect:
     Model: HELIX
     Particle:
-      Name: VILLAGER_HAPPY
-      Data: ''
+      Name: DUST
+      Color: 255,255,255
+      Size: 1.0
+  Positions:
+  - 311,84,310,world
 Rewards:
   List:
     money2500:
-      Name: §a◆ $2.500 ◆
-      Chance: 5.0
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:emerald"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 5000080016ip0025mmirj5cdp62pjk79imqpbic5m682g00dq62poa003m8qbje1m62u880024sobdck09eup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq4bh9f1h04gp2sd9g60ge55s649ulqb12ehingt1278h24v800c00ii39chikcr31ctpg0000fs4g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0020000400agrfeln78080
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a◆ $2.500 ◆'
+      Description: []
       Commands:
-        - '[CONSOLE] eco give %player% 2500'
-      Items: &id001 [ ]
+      - eco give %player_name% 2500
     money5000:
-      Name: §a◆ $5.000 ◆
-      Chance: 3.0
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:emerald"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 5000080016ip0025mmirj5cdp62pjk79imqpbic5m682g00dq62poa003m8qbje1m62u880024sobdck09eup2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq4bh9f1h04gqisc1g60ge55s649ulqb12ehingt1278h24v800c00ii39chikcr31ctpg0000fs4g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0020000400agrfeln78080
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a◆ $5.000 ◆'
+      Description: []
       Commands:
-        - '[CONSOLE] eco give %player% 5000'
-      Items: *id001
+      - eco give %player_name% 5000
     money10000:
-      Name: §a◆ $10.000 ◆
-      Chance: 1.5
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:emerald"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800hdlkmspb3e9gmct1qclmmasj1dhi0k003ehgme2g00ti6isrgdhgni2000h762rb502c7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2ctp6apbe48m24t35f1q24eh2saboc81464o2sc1g60ge55s649ulqb12ehingt1278h24v800c00ii39chikcr31ctpg0000fs4g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0020000400agrfeln78080
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a◆ $10.000 ◆'
+      Description: []
       Commands:
-        - '[CONSOLE] eco give %player% 10000'
-      Items: *id001
+      - eco give %player_name% 10000
     exp10:
-      Name: §e◆ 10 Exp Levels ◆
-      Chance: 8.0
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:experience_bottle"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400dmqqbeclhn4ob6egt6au3gclp6ipbecdiluojfehq6op8a001n8ob71800ep39edo6oobp10008jj1dlig17rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7ipbcdhnne8hc49q6au3k48t25okngog32c108ls7082cclr6ar3j43h9f1h2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&e◆ 10 Exp Levels ◆'
+      Description: []
       Commands:
-        - '[CONSOLE] exp give %player% 10l'
-      Items: *id001
+      - exp give %player_name% 10l
     exp20:
-      Name: §e◆ 20 Exp Levels ◆
-      Chance: 7.0
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:experience_bottle"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400dmqqbeclhn4ob6egt6au3gclp6ipbecdiluojfehq6op8a001n8ob71800ep39edo6oobp10008jj1dlig17rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7ipbcdhnne8hc49q6au3k48t25okngog34c108ls7082cclr6ar3j43h9f1h2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&e◆ 20 Exp Levels ◆'
+      Description: []
       Commands:
-        - '[CONSOLE] exp give %player% 20l'
-      Items: *id001
+      - exp give %player_name% 20l
     exp30:
-      Name: §e◆ 30 Exp Levels ◆
-      Chance: 6.0
+      Type: COMMAND
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:experience_bottle"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400dmqqbeclhn4ob6egt6au3gclp6ipbecdiluojfehq6op8a001n8ob71800ep39edo6oobp10008jj1dlig17rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7ipbcdhnne8hc49q6au3k48t25okngog36c108ls7082cclr6ar3j43h9f1h2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&e◆ 30 Exp Levels ◆'
+      Description: []
       Commands:
-        - '[CONSOLE] exp give %player% 30l'
-      Items: *id001
+      - exp give %player_name% 30l
     iron_block:
-      Name: §fx5 Iron Block
-      Chance: 12.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:iron_block"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivc9m6uorb0400agrfeln78180
-      Commands: [ ]
-      Items:
-        - 1800020009km800kdlkmspb3e9gmct1qd5p6urivc9m6uorb0400agrfeln78180
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:iron_block"}'
+            DataVersion: 4440
     diamond_block:
-      Name: §bx5 Diamond Block
-      Chance: 11.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:diamond_block"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln78180
-      Commands: [ ]
-      Items:
-        - k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln78180
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:diamond_block"}'
+            DataVersion: 4440
     emerald_block:
-      Name: §ax5 Emerald Block
-      Chance: 10.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:emerald_block"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400bmqqbeclhn4ob6egt6arb5e9gmop2vc9m6uorb0400agrfeln78180
-      Commands: [ ]
-      Items:
-        - k00010004qb400bmqqbeclhn4ob6egt6arb5e9gmop2vc9m6uorb0400agrfeln78180
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:emerald_block"}'
+            DataVersion: 4440
     golden_apple:
-      Name: §ex32 Golden Apple
-      Chance: 14.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:golden_apple"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78800
-      Commands: [ ]
-      Items:
-        - 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78800
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:golden_apple"}'
+            DataVersion: 4440
     slime:
-      Name: §ax32 Slime Ball
-      Chance: 17.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:slime_ball"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800kdlkmspb3e9gmct1qedm6irb5bth62r3c0400agrfeln78800
-      Commands: [ ]
-      Items:
-        - 1800020009km800kdlkmspb3e9gmct1qedm6irb5bth62r3c0400agrfeln78800
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:slime_ball"}'
+            DataVersion: 4440
     trident:
-      Name: §3Trident
-      Chance: 15.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:trident"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kt3id5i6arjk18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - 2g0004000j9cg012rb9dpim6sj1cpq3kt3id5i6arjk18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:trident"}'
+            DataVersion: 4440
     elytra:
-      Name: §dElytra
-      Chance: 9.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:elytra"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i0043dd5n6aoric5j78ej5dhsn8sj118006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
-      Commands: [ ]
-      Items:
-        - a0000g002d5i0043dd5n6aoric5j78ej5dhsn8sj118006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:elytra"}'
+            DataVersion: 4440
     netherite_ingot:
-      Name: §8x5 Netherite Ingot
-      Chance: 16.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:netherite_ingot"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavd5n6errk0400agrfeln78180
-      Commands: [ ]
-      Items:
-        - 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavd5n6errk0400agrfeln78180
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:netherite_ingot"}'
+            DataVersion: 4440
     ender_pearl:
-      Name: §bx16 Ender Pearl
-      Chance: 20.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:ender_pearl"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln78400
-      Commands: [ ]
-      Items:
-        - a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln78400
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:ender_pearl"}'
+            DataVersion: 4440
     sugar:
-      Name: §fx32 Sugar
-      Chance: 25.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:sugar"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800fdlkmspb3e9gmct1qedqmeobi0400agrfeln78800
-      Commands: [ ]
-      Items:
-        - 1800020009km800fdlkmspb3e9gmct1qedqmeobi0400agrfeln78800
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:sugar"}'
+            DataVersion: 4440
     shulker_shell:
-      Name: §dx8 Shulker Shell
-      Chance: 13.0
+      Type: ITEM
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:shulker_shell"}'
+          DataVersion: 4440
+      Weight: 0.0
+      Rarity: common
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400bmqqbeclhn4ob6egt76q3ldhlmasivedk6ar3c0400agrfeln78200
-      Commands: [ ]
-      Items:
-        - k00010004qb400bmqqbeclhn4ob6egt76q3ldhlmasivedk6ar3c0400agrfeln78200
-    test:
-      Name: §aTest Reward
-      Chance: 25.0
-      Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
-      Commands: [ ]
-      Items: *id001
-Item:
-  Material: PLAYER_HEAD
-  Amount: 1
-  Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwZTZkOWUyNDI3MzU0ODE5MThjNWZkMTQ0OThiZDc2MGJiOWY0ZmY2NDMwYWQ0Njk2YjM4ZThhODgzZGE5NyJ9fX0=
-  Durability: 0
-  Name: '&a&lEmerald Crate &7(Right-Click)'
-  Lore:
-    - '&fLeft Click &7to preview'
-    - '&fRight Click &7to open'
-  Item_Flags: *id001
-  Unbreakable: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:shulker_shell"}'
+            DataVersion: 4440
+_dataver: 600
+ItemProvider:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#32E632",italic:0b,obfuscated:0b,strikethrough:0b,text:"Emerald Crate ",underlined:0b},{bold:0b,extra:[{bold:1b,color:"#A1A1A1",italic:0b,obfuscated:0b,strikethrough:0b,text:"(Right-Click)",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:damage":0,"minecraft:lore":[{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Left
+      Click ",underlined:0b},{bold:0b,extra:[{bold:0b,color:"#A1A1A1",italic:0b,obfuscated:0b,strikethrough:0b,text:"to preview",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Right Click ",underlined:0b},{bold:0b,extra:[{bold:0b,color:"#A1A1A1",italic:0b,obfuscated:0b,strikethrough:0b,text:"to
+      open",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],"minecraft:profile":{id:[I;-826471227,232798318,-1998385901,-1182210702],name:"bc0e6d9e24273548",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwZTZkOWUyNDI3MzU0ODE5MThjNWZkMTQ0OThiZDc2MGJiOWY0ZmY2NDMwYWQ0Njk2YjM4ZThhODgzZGE5NyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:rarity","minecraft:death_protection","minecraft:recipes","minecraft:stored_enchantments","minecraft:mooshroom/variant","minecraft:fireworks","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:charged_projectiles","minecraft:bundle_contents","minecraft:potion_contents","minecraft:wolf/variant","minecraft:repair_cost","minecraft:damage_resistant","minecraft:banner_patterns","minecraft:max_stack_size","minecraft:writable_book_content","minecraft:entity_data","minecraft:fox/variant","minecraft:use_remainder","minecraft:container_loot","minecraft:written_book_content","minecraft:jukebox_playable","minecraft:repairable","minecraft:painting/variant","minecraft:equippable","minecraft:dyed_color","minecraft:cow/variant","minecraft:villager/variant","minecraft:parrot/variant","minecraft:note_block_sound","minecraft:can_place_on","minecraft:map_post_processing","minecraft:enchantable","minecraft:weapon","minecraft:instrument","minecraft:block_state","minecraft:consumable","minecraft:debug_stick_state","minecraft:lock","minecraft:pig/variant","minecraft:map_color","minecraft:frog/variant","minecraft:custom_data","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:enchantment_glint_override","minecraft:can_break","minecraft:llama/variant","minecraft:blocks_attacks","minecraft:sheep/color","minecraft:horse/variant","minecraft:chicken/variant","minecraft:provides_banner_patterns","minecraft:creative_slot_lock","minecraft:bucket_entity_data","minecraft:map_id","minecraft:cat/collar","minecraft:max_damage","minecraft:tool","minecraft:ominous_bottle_amplifier","minecraft:bees","minecraft:profile","minecraft:tropical_fish/pattern","minecraft:glider","minecraft:food","minecraft:wolf/collar","minecraft:trim","minecraft:use_cooldown","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:salmon/size","minecraft:provides_trim_material","minecraft:block_entity_data","minecraft:attribute_modifiers","minecraft:damage","minecraft:base_color","minecraft:cat/variant","minecraft:shulker/color","minecraft:container","minecraft:unbreakable","minecraft:enchantments","minecraft:pot_decorations","minecraft:rabbit/variant","minecraft:tropical_fish/pattern_color","minecraft:map_decorations","minecraft:suspicious_stew_effects","minecraft:potion_duration_scale","minecraft:tropical_fish/base_color"]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4440
+Preview:
+  Enabled: true
+  Id: xmas
+Animation:
+  Enabled: true
+  Id: csgo
+Description: []
+ItemStackable: true

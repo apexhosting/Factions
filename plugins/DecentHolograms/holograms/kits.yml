@@ -1,0 +1,22 @@
+location: world:342.003:83.249:287.581
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: "&c&lKITS"
+    height: 0.3
+  - content: "&7Choose your kit and get ready to fight!"
+    height: 0.3
+  - content: "&eAlchemist, Warrior, Trapper"
+    height: 0.3
+  - content: "&eMVM, Archer, Tank, VIP"
+    height: 0.3
+  - content: "&7Type &e/kits &7to redeem your kit"
+    height: 0.3
+  - content: "#ICON: ENDER_CHEST"
+    height: 0.3
+  actions: {}
