@@ -1,0 +1,20 @@
+2025-08-08 07:43:20 [INFO]: Loading Overrides...
+2025-08-08 07:43:20 [INFO]: Loading World Types...
+2025-08-08 07:43:20 [INFO]: - World Type for 'world' set to 'NORMAL'
+2025-08-08 07:43:20 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2025-08-08 07:43:20 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2025-08-08 07:43:20 [INFO]: Loading Defaults...
+2025-08-08 07:43:20 [INFO]: Loading Custom Worlds...
+2025-08-08 07:43:20 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-08-08 07:43:20 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-08-08 07:43:20 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2025-08-08 07:43:21 [INFO]: Database COOLDOWN:world configured and loaded!
+2025-08-08 07:43:21 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-08-08 07:43:21 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2025-08-08 07:43:21 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-08-08 07:43:21 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2025-08-08 07:43:21 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-08-08 07:43:21 [INFO]: Attempting to queue up some more safe locations...
+2025-08-08 07:43:22 [INFO]: Queueing paused, max queue limit reached!
+2025-08-08 07:50:03 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-698.5,y=97.0,z=497.5,pitch=14.250042,yaw=-4.1886153}
+2025-08-08 08:11:32 [INFO]: Disabling BetterRTP v3.6.13

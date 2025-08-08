@@ -1,0 +1,133 @@
+Settings:
+  Menu_Type: generic_9x6
+  Title: <black>Opening %crate_name%...</black>
+  WinSlots: '49'
+  # Sets max. amount of the opening ticks while players can skip the opening animation.
+  # Set to -1 to disable (no skip).
+  Max_Ticks_To_Skip: 40
+  # Sets how soon (in ticks) animation GUI will be closed when completed.
+  # [1 second = 20 ticks]
+  # [Default is 20 ticks]
+  Completion_Pause_Ticks: 40
+  RunOnLaunch:
+    ANIMATION:
+      cloud_1_down:
+        SpinnerId: cloud
+        Mode: SEQUENTAL
+        Slots: 9,10,11,12,13
+        SpinDelay: 9
+        Spins:
+        - '5:5'
+      cloud_2_up:
+        SpinnerId: cloud
+        Mode: SEQUENTAL
+        Slots: 8,7,6,5
+        SpinDelay: 9
+        Spins:
+        - '4:5'
+      thunder_2_clear:
+        SpinnerId: clear
+        Mode: INDEPENDENT
+        Slots: 24,33,41,50
+        SpinDelay: 87
+        Spins:
+        - '1:1'
+      thunder_1_sound:
+        SpinnerId: clear
+        Mode: INDEPENDENT
+        Slots: '-1'
+        SpinDelay: 66
+        Spins:
+        - '1:1'
+        Sound: minecraft:entity.lightning_bolt.impact;0.8;1.0
+      cloud_1_up:
+        SpinnerId: cloud
+        Mode: SEQUENTAL
+        Slots: 1,2,3
+        SpinDelay: 18
+        Spins:
+        - '3:5'
+      thunder_2:
+        SpinnerId: thunder
+        Mode: SEQUENTAL
+        Slots: 24,33,41,50
+        SpinDelay: 68
+        Spins:
+        - '4:4'
+      cloud_2_down_clear_corner:
+        SpinnerId: clear
+        Mode: INDEPENDENT
+        Slots: '17'
+        SpinDelay: 30
+        Spins:
+        - '1:1'
+      thunder_1_clear:
+        SpinnerId: clear
+        Mode: INDEPENDENT
+        Slots: 19,29,38,48
+        SpinDelay: 71
+        Spins:
+        - '1:1'
+      thunder_1:
+        SpinnerId: thunder
+        Mode: SEQUENTAL
+        Slots: 19,29,38,48
+        SpinDelay: 52
+        Spins:
+        - '4:4'
+      rain_sound:
+        SpinnerId: clear
+        Mode: INDEPENDENT
+        Slots: '-1'
+        SpinDelay: 30
+        Spins:
+        - '1:5'
+        Sound: minecraft:weather.rain.above;0.8;1.0
+      thunder_2_sound:
+        SpinnerId: clear
+        Mode: INDEPENDENT
+        Slots: '-1'
+        SpinDelay: 82
+        Spins:
+        - '1:1'
+        Sound: minecraft:entity.lightning_bolt.impact;0.8;1.0
+      clouds_2_down:
+        SpinnerId: cloud
+        Mode: SEQUENTAL
+        Slots: 17,16,15
+        SpinDelay: 15
+        Spins:
+        - '3:5'
+    REWARD:
+      main:
+        SpinnerId: default
+        Mode: INDEPENDENT
+        Slots: '49'
+        SpinDelay: 83
+        Spins:
+        - '1:1'
+        Sound: minecraft:block.amethyst_block.resonate;0.8;1.0
+Spinners:
+  ANIMATION:
+    cloud:
+      Items:
+        cloud:
+          Chance: 100.0
+          Material: minecraft:white_stained_glass_pane
+          Lore: []
+    clear:
+      Items:
+        clear:
+          Chance: 100.0
+          Material: minecraft:air
+          Amount: 0
+    thunder:
+      Items:
+        thunder:
+          Chance: 100.0
+          Material: minecraft:yellow_stained_glass_pane
+          Lore: []
+  REWARD:
+    default:
+      Rarities:
+      - '*'

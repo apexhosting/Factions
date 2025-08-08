@@ -1,0 +1,3 @@
+2025-08-08 07:43:16 jdbc[3]: exception
+com.songoda.third_party.org.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+SELECT 1 FROM ultimatestacker_migrations [42102-200]

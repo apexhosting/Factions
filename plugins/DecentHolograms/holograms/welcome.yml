@@ -1,0 +1,18 @@
+location: world:325.475:87.000:293.200
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: "&c&lFACTIONS"
+    height: 0.3
+  - content: "&7Welcome to our &cFactions&7!"
+    height: 0.3
+  - content: "&7Will your faction &econquer the world?"
+    height: 0.3
+  - content: "#ICON: IRON_SWORD"
+    height: 0.3
+  actions: {}

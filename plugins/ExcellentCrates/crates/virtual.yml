@@ -1,17 +1,14 @@
-Name: §x§3§F§6§8§E§A§lVirtual Crate
-Preview_Config: default
+Name: '#3F68EA&lVirtual Crate'
 Permission_Required: false
 Attached_Citizens: ''
 Opening:
   Cooldown: 86400
-  Cost:
-    MONEY: 0.0
-    EXP: 0.0
 Key:
   Ids:
-    - virtual
+  - virtual
+  Required: true
 Block:
-  Locations: [ ]
+  Locations: []
   Pushback:
     Enabled: true
   Hologram:
@@ -19,208 +16,504 @@ Block:
     Offset:
       Y: 1.5
     Text:
-      - §bVIRTUAL CRATE
-      - §7Buy a key at §cwww.myserver.com§c
+    - §bVIRTUAL CRATE
+    - §7Buy a key at §cwww.myserver.com§c
+    Template: default
+    Y_Offset: 0.0
   Effect:
     Model: HELIX
     Particle:
       Name: FLAME
-      Data: ''
-Animation_Config: click_chests
+  Positions: []
 Rewards:
   List:
     egg_bee:
       Name: Bee Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400bmqqbeclhn4ob6egt64pb5btpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - k00010004qb400bmqqbeclhn4ob6egt64pb5btpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:bee_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:bee_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_cat:
       Name: Cat Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400bmqqbeclhn4ob6egt66obkbtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - k00010004qb400bmqqbeclhn4ob6egt66obkbtpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:cat_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:cat_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_chicken:
       Name: Chicken Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kor8d5hmmpbebtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - 2g0004000j9cg01mrb9dpim6sj1cpq3kor8d5hmmpbebtpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:chicken_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:chicken_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_cow:
       Name: Cow Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400bmqqbeclhn4ob6egt66rrnbtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - k00010004qb400bmqqbeclhn4ob6egt66rrnbtpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:cow_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:cow_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_fox:
       Name: Fox Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400bmqqbeclhn4ob6egt6crrobtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - k00010004qb400bmqqbeclhn4ob6egt6crrobtpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:fox_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:fox_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_horse:
       Name: Horse Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800pdlkmspb3e9gmct1qd1nn4sr5btpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - 1800020009km800pdlkmspb3e9gmct1qd1nn4sr5btpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:horse_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:horse_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_mooshroom:
       Name: Mooshroom Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 5000080016ip003lmmirj5cdp62pjk79mmurrjd1p6urrdbtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - 5000080016ip003lmmirj5cdp62pjk79mmurrjd1p6urrdbtpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:mooshroom_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:mooshroom_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_ocelot:
       Name: Ocelot Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i006jdd5n6aoric5j78ejfcdimorrkbtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - a0000g002d5i006jdd5n6aoric5j78ejfcdimorrkbtpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:ocelot_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:ocelot_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_panda:
       Name: Panda Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800pdlkmspb3e9gmct1qe1gmsp31btpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - 1800020009km800pdlkmspb3e9gmct1qe1gmsp31btpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:panda_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:panda_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_turtle:
       Name: Turtle Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i006jdd5n6aoric5j78ejkelp78r35btpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - a0000g002d5i006jdd5n6aoric5j78ejkelp78r35btpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:turtle_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:turtle_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_wolf:
       Name: Wolf Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 5000080016ip0031mmirj5cdp62pjk79rmur36btpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - 5000080016ip0031mmirj5cdp62pjk79rmur36btpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:wolf_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:wolf_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_villager:
       Name: Villager Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:villager_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:villager_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_parrot:
       Name: Parrot Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i006jdd5n6aoric5j78ejgc5p74rrkbtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - a0000g002d5i006jdd5n6aoric5j78ejgc5p74rrkbtpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:parrot_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:parrot_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_squid:
       Name: Squid Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800pdlkmspb3e9gmct1qedonaqb4btpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - 1800020009km800pdlkmspb3e9gmct1qedonaqb4btpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:squid_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:squid_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_rabbit:
       Name: Rabbit Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: a0000g002d5i006jdd5n6aoric5j78ejic5h64qbkbtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - a0000g002d5i006jdd5n6aoric5j78ejic5h64qbkbtpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:rabbit_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:rabbit_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_pig:
       Name: Pig Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: k00010004qb400bmqqbeclhn4ob6egt70qb7btpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - k00010004qb400bmqqbeclhn4ob6egt70qb7btpn0obndpfmapr70400agrfeln78400
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:pig_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:pig_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
     egg_sheep:
       Name: Sheep Spawn Egg
       Chance: 25.0
       Broadcast: false
-      Win_Limits:
-        Amount: -1
-        Cooldown: 0
-      Preview: 1800020009km800pdlkmspb3e9gmct1qedk6apbgbtpn0obndpfmapr70400agrfeln78400
-      Commands: [ ]
-      Items:
-        - 1800020009km800pdlkmspb3e9gmct1qedk6apbgbtpn0obndpfmapr70400agrfeln78400
-Item:
-  Material: PLAYER_HEAD
-  Amount: 1
-  Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI0ODZmMjg1OTE2OWM4YmZiNjZhNjg3YmNmNGM2OTkzNDE3ZjU4NGI1OGJiZmRiMzM2NDY0ZDUyMDcxY2NkNyJ9fX0=
-  Durability: 0
-  Name: '&x&3&F&6&8&E&A&lVirtual Crate'
-  Item_Flags: [ ]
-  Unbreakable: false
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:sheep_spawn_egg"}'
+          DataVersion: 4440
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Type: ITEM
+      ItemsData:
+        '0':
+          Type: VANILLA
+          Tag:
+            Value: '{count:1,id:"minecraft:sheep_spawn_egg"}'
+            DataVersion: 4440
+      Custom_Preview: false
+_dataver: 600
+ItemProvider:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"&x",underlined:0b},{bold:0b,extra:[{bold:0b,color:"#327878",italic:0b,obfuscated:0b,strikethrough:0b,text:"&F",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#6C6C62",italic:0b,obfuscated:0b,strikethrough:0b,text:"&E&A",underlined:0b},{bold:0b,extra:[{bold:1b,color:"#6C6C62",italic:0b,obfuscated:0b,strikethrough:0b,text:"Virtual Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:damage":0,"minecraft:profile":{id:[I;862144545,1632452112,-2137425856,589190603],name:"42486f2859169c8b",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI0ODZmMjg1OTE2OWM4YmZiNjZhNjg3YmNmNGM2OTkzNDE3ZjU4NGI1OGJiZmRiMzM2NDY0ZDUyMDcxY2NkNyJ9fX0="}]},"minecraft:tooltip_display":{hidden_components:["minecraft:rarity","minecraft:death_protection","minecraft:recipes","minecraft:stored_enchantments","minecraft:mooshroom/variant","minecraft:fireworks","minecraft:break_sound","minecraft:wolf/sound_variant","minecraft:charged_projectiles","minecraft:bundle_contents","minecraft:potion_contents","minecraft:wolf/variant","minecraft:repair_cost","minecraft:damage_resistant","minecraft:banner_patterns","minecraft:max_stack_size","minecraft:writable_book_content","minecraft:entity_data","minecraft:fox/variant","minecraft:use_remainder","minecraft:container_loot","minecraft:written_book_content","minecraft:jukebox_playable","minecraft:repairable","minecraft:painting/variant","minecraft:equippable","minecraft:dyed_color","minecraft:cow/variant","minecraft:villager/variant","minecraft:parrot/variant","minecraft:note_block_sound","minecraft:can_place_on","minecraft:map_post_processing","minecraft:enchantable","minecraft:weapon","minecraft:instrument","minecraft:block_state","minecraft:consumable","minecraft:debug_stick_state","minecraft:lock","minecraft:pig/variant","minecraft:map_color","minecraft:frog/variant","minecraft:custom_data","minecraft:intangible_projectile","minecraft:firework_explosion","minecraft:enchantment_glint_override","minecraft:can_break","minecraft:llama/variant","minecraft:blocks_attacks","minecraft:sheep/color","minecraft:horse/variant","minecraft:chicken/variant","minecraft:provides_banner_patterns","minecraft:creative_slot_lock","minecraft:bucket_entity_data","minecraft:map_id","minecraft:cat/collar","minecraft:max_damage","minecraft:tool","minecraft:ominous_bottle_amplifier","minecraft:bees","minecraft:profile","minecraft:tropical_fish/pattern","minecraft:glider","minecraft:food","minecraft:wolf/collar","minecraft:trim","minecraft:use_cooldown","minecraft:axolotl/variant","minecraft:lodestone_tracker","minecraft:salmon/size","minecraft:provides_trim_material","minecraft:block_entity_data","minecraft:attribute_modifiers","minecraft:damage","minecraft:base_color","minecraft:cat/variant","minecraft:shulker/color","minecraft:container","minecraft:unbreakable","minecraft:enchantments","minecraft:pot_decorations","minecraft:rabbit/variant","minecraft:tropical_fish/pattern_color","minecraft:map_decorations","minecraft:suspicious_stew_effects","minecraft:potion_duration_scale","minecraft:tropical_fish/base_color"]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4440
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: csgo
+Description: []
+ItemStackable: true

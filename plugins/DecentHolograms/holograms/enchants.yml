@@ -1,0 +1,16 @@
+location: world:339.0338424154215:82.55710231274978:298.39027013812284
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: "&d&lENCHANTING &7&lAREA"
+    height: 0.3
+  - content: "&eEnchant, become stronger!"
+    height: 0.3
+  - content: "#ICON: ENCHANTING_TABLE"
+    height: 0.3
+  actions: {}

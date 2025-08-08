@@ -1,0 +1,14 @@
+location: world:301.06463263457:85.85227429651255:283.48822538862487
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: "&4&lNETHER"
+    height: 0.3
+  - content: "&eWill you be able to survive?"
+    height: 0.3
+  actions: {}

@@ -95,6 +95,7 @@ mobs:
     block-zombie-door-destruction: false
     block-vehicle-entry: false
     block-creature-spawn: []
+    block-windcharge-explosions: false
 player-damage:
     disable-fall-damage: false
     disable-lava-damage: false
@@ -141,6 +142,9 @@ dynamics:
     disable-soil-dehydration: false
     disable-coral-block-fade: false
     snow-fall-blocks: []
+    disable-sculk-growth: false
+    disable-soil-moisture-change: false
+    disable-copper-block-fade: false
 blacklist:
     use-as-whitelist: false
     logging:
@@ -159,3 +163,6 @@ blacklist:
 custom-metrics-charts: true
 extra-timings:
     session-handlers: true
+sniffer-egg:
+    disable-creature-trampling: false
+    disable-player-trampling: false

@@ -1,0 +1,8 @@
+Name: <aqua><b>Warrior Crate Key
+Virtual: false
+ItemData:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":{extra:["Warrior Key"],text:""}},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4440
+ItemStackable: false
